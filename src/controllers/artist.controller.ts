@@ -6,7 +6,8 @@ interface IAllArtistsInput {
   search: string | null;
 }
 const AllArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
-  return Artist.aggregate([
+  let result: IArtist[] = [];
+  result = await Artist.aggregate([
     {
       $match: {
         $or: [
@@ -34,6 +35,8 @@ const AllArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
     { $skip: input.offset },
     { $limit: input.limit }
   ]);
+
+  return result;
 };
 
 export default { AllArtists };
