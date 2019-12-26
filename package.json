@@ -10,13 +10,13 @@
     "koa": "2.11.0",
     "koa-router": "7.4.0",
     "mongoose": "5.8.3",
-    "ramda": "^0.26.1"
+    "ramda": "0.26.1"
   },
   "devDependencies": {
     "@types/koa": "2.11.0",
     "@types/koa-router": "7.0.42",
     "@types/mongoose": "5.5.35",
-    "@types/ramda": "^0.26.39",
+    "@types/ramda": "0.26.39",
     "nodemon": "2.0.2",
     "ts-node": "8.5.4",
     "tslint": "5.20.1",
