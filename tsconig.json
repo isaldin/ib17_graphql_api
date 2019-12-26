@@ -3,9 +3,9 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es2017",
-    "noImplicitAny": true,
     "outDir": "./dist",
-    "sourceMap": true
+    "sourceMap": true,
+    "strict": true
   },
   "include": ["./src/**/*"]
 }
