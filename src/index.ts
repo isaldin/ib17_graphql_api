@@ -29,6 +29,7 @@ mongoose
   .then((db: typeof mongoose) => {
     app.context.db = db.connection;
   })
+  // tslint:disable-next-line: no-console
   .catch(err => console.error("Something went wrong", err));
 
 router.get("/", async ctx => {
@@ -46,5 +47,6 @@ router.get("/artists", async ctx => {
 app.use(router.routes());
 
 app.listen(port, () => {
+  // tslint:disable-next-line: no-console
   console.log("Server running on port 3000");
 });
