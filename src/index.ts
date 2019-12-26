@@ -1,3 +1,4 @@
+import * as dotenv from "dotenv";
 import * as Koa from "koa";
 import { DefaultContext, DefaultState } from "koa";
 import * as Router from "koa-router";
@@ -13,9 +14,10 @@ interface IAppContext extends DefaultContext {
 
 const app = new Koa<DefaultState, DefaultContext>();
 const router = new Router();
+dotenv.config();
 
 const port = process.env.PORT || 3000;
-const uri = "";
+const uri = process.env.MONGO_URI;
 
 mongoose
   .connect(uri, {
