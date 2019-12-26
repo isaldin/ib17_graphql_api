@@ -16,9 +16,9 @@ const ArtistSchema: Schema = new Schema({
     unique: true
   },
   location: String,
-  name: String,
+  name: { type: String, index: true },
   tracks: [{ type: Schema.Types.ObjectId, ref: "Track" }],
-  username: String
+  username: { type: String, index: true }
 });
 
 export default mongoose.model<IArtist>("Artist", ArtistSchema);
