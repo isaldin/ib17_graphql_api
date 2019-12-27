@@ -1,11 +1,14 @@
+import * as mongoose from "mongoose";
+
 import Artist, { IArtist } from "../models/artist.model";
+import "../models/track.model";
 
 interface IAllArtistsInput {
   offset: number;
   limit: number;
   search: string | null;
 }
-const AllArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
+const allArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
   let result: IArtist[] = [];
   result = await Artist.aggregate([
     {
@@ -39,4 +42,14 @@ const AllArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
   return result;
 };
 
-export default { AllArtists };
+const artistById = async (id: string | null): Promise<IArtist | null> => {
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return null;
+  }
+
+  const artist = await Artist.findOne({ _id: id }).populate("tracks");
+
+  return artist;
+};
+
+export default { allArtists, artistById };

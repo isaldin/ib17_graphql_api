@@ -4,7 +4,7 @@ import { DefaultContext, DefaultState } from "koa";
 import * as Router from "koa-router";
 import * as mongoose from "mongoose";
 
-import ArtistsController from "./controllers/artist.controller";
+import artistsController from "./controllers/artist.controller";
 
 type Mongoose = typeof mongoose.connection;
 
@@ -37,11 +37,20 @@ router.get("/", async ctx => {
 });
 
 router.get("/artists", async ctx => {
-  ctx.body = await ArtistsController.AllArtists({
+  ctx.body = await artistsController.allArtists({
     limit: parseInt(ctx.query.limit || 10, 10),
     offset: parseInt(ctx.query.offset || 0, 10),
     search: ctx.query.search || ""
   });
+});
+
+router.get("/artist/:id", async ctx => {
+  const response = await artistsController.artistById(ctx.params.id);
+  if (!response) {
+    return (ctx.status = 404);
+  }
+
+  ctx.body = response;
 });
 
 app.use(router.routes());
