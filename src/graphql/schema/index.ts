@@ -1,6 +1,6 @@
 import { GraphQLObjectType, GraphQLSchema } from "graphql";
 
-import { ArtistSchema } from "./artist";
+import { ArtistSchema } from "./artist.schema";
 
 export const graphqlSchema = new GraphQLSchema({
   query: new GraphQLObjectType({
