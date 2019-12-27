@@ -1,10 +1,14 @@
 import * as dotenv from "dotenv";
 import * as Koa from "koa";
 import { DefaultContext, DefaultState } from "koa";
+import * as mount from "koa-mount";
 import * as Router from "koa-router";
 import * as mongoose from "mongoose";
 
+const graphqlHTTP = require("koa-graphql");
+
 import artistsController from "./controllers/artist.controller";
+import { graphqlSchema } from "./graphql/schema";
 
 type Mongoose = typeof mongoose.connection;
 
@@ -54,6 +58,16 @@ router.get("/artist/:id", async ctx => {
 });
 
 app.use(router.routes());
+
+app.use(
+  mount(
+    "/graphql",
+    graphqlHTTP({
+      graphiql: true,
+      schema: graphqlSchema
+    })
+  )
+);
 
 app.listen(port, () => {
   // tslint:disable-next-line: no-console

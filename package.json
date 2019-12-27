@@ -9,6 +9,8 @@
   "dependencies": {
     "dotenv": "8.2.0",
     "koa": "2.11.0",
+    "koa-graphql": "0.8.0",
+    "koa-mount": "4.0.0",
     "koa-router": "7.4.0",
     "mongoose": "5.8.3",
     "ramda": "0.26.1"
@@ -16,6 +18,8 @@
   "devDependencies": {
     "@types/dotenv": "8.2.0",
     "@types/koa": "2.11.0",
+    "@types/koa-graphql": "0.8.0",
+    "@types/koa-mount": "4.0.0",
     "@types/koa-router": "7.0.42",
     "@types/mongoose": "5.5.35",
     "@types/ramda": "0.26.39",
