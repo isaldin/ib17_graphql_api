@@ -1,6 +1,7 @@
 import {
   GraphQLInt,
   GraphQLList,
+  GraphQLNonNull,
   GraphQLObjectType,
   GraphQLString
 } from "graphql";
@@ -12,7 +13,7 @@ import { trackType } from "./track.schema";
 
 export const artistType = new GraphQLObjectType({
   fields: () => ({
-    id: { type: GraphQLString },
+    id: { type: new GraphQLNonNull(GraphQLString) },
     name: { type: GraphQLString },
     track: {
       args: { round: { type: GraphQLInt } },
@@ -25,7 +26,7 @@ export const artistType = new GraphQLObjectType({
     },
     tracks: {
       resolve: parent => trackController.getTracks({ authorId: parent.id }),
-      type: new GraphQLList(trackType)
+      type: new GraphQLNonNull(new GraphQLList(new GraphQLNonNull(trackType)))
     },
     username: { type: GraphQLString }
   }),
@@ -34,7 +35,7 @@ export const artistType = new GraphQLObjectType({
 
 const query = {
   artist: {
-    args: { id: { type: GraphQLString } },
+    args: { id: { type: new GraphQLNonNull(GraphQLString) } },
     resolve: (root, { id }) => artistController.artistById(id),
     type: artistType
   },
@@ -63,13 +64,19 @@ const query = {
         )
       };
     },
-    type: new GraphQLObjectType({
-      fields: () => ({
-        count: { type: GraphQLInt },
-        list: { type: new GraphQLList(artistType) }
-      }),
-      name: "Artists"
-    })
+    type: new GraphQLNonNull(
+      new GraphQLObjectType({
+        fields: () => ({
+          count: { type: new GraphQLNonNull(GraphQLInt) },
+          list: {
+            type: new GraphQLNonNull(
+              new GraphQLList(new GraphQLNonNull(artistType))
+            )
+          }
+        }),
+        name: "Artists"
+      })
+    )
   }
 };
 
