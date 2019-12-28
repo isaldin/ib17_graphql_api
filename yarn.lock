@@ -64,13 +64,6 @@
   dependencies:
     dotenv "*"
 
-"@types/express-graphql@*":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@types/express-graphql/-/express-graphql-0.9.0.tgz#6f891c11785204bff3a27cae00180c4228550eb8"
-  integrity sha512-+n13emasFUtIn5kpJUTIUy4tAiJBRnHSChpA8OVmKvdKYbzzK6iI/zsnWEKP8qQJDpiUh48wrRKIXNC+5U/t+w==
-  dependencies:
-    express-graphql "*"
-
 "@types/express-serve-static-core@*":
   version "4.17.1"
   resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.1.tgz#82be64a77211b205641e0209096fd3afb62481d3"
@@ -87,13 +80,6 @@
     "@types/body-parser" "*"
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
-
-"@types/graphql@*":
-  version "14.5.0"
-  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-14.5.0.tgz#a545fb3bc8013a3547cf2f07f5e13a33642b75d6"
-  integrity sha512-MOkzsEp1Jk5bXuAsHsUi6BVv0zCO+7/2PTiZMXWDSsMXvNU6w/PLMQT2vHn8hy2i0JqojPz1Sz6rsFjHtsU0lA==
-  dependencies:
-    graphql "*"
 
 "@types/http-assert@*":
   version "1.5.1"
@@ -112,15 +98,15 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-graphql@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@types/koa-graphql/-/koa-graphql-0.8.0.tgz#cd8fc6b46703b2ea2779bcb9d5ae0c0287824c2e"
-  integrity sha512-fiIsvDKdVm2gf7Tq2gIMGE5vVhxjjYbQ2mDeZA/GmthR3Ajmt13Hl6Ey92wo8YrZHkYu2VPF0UfJfe16ByuSLg==
+"@types/koa-graphql@0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@types/koa-graphql/-/koa-graphql-0.8.3.tgz#531d9cdbf997309e079a0364a8040b01f2864283"
+  integrity sha512-+4CEYfDz3K7weJLFRpOWnA16dRp863Q76FCc/8uccVISOoSMU+3Hk03PJjQwyzpk4r+Ps+QM6tyk8v2w+Nlo/g==
   dependencies:
-    "@types/express-graphql" "*"
-    "@types/graphql" "*"
     "@types/koa" "*"
     "@types/node" "*"
+    express-graphql "^0.9.0"
+    graphql "^14.5.3"
 
 "@types/koa-mount@4.0.0":
   version "4.0.0"
@@ -587,16 +573,6 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-express-graphql@*:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/express-graphql/-/express-graphql-0.9.0.tgz#00fd8552f866bac5c9a4612b2c4c82076107b3c2"
-  integrity sha512-wccd9Lb6oeJ8yHpUs/8LcnGjFUUQYmOG9A5BNLybRdCzGw0PeUrtBxsIR8bfiur6uSW4OvPkVDoYH06z6/N9+w==
-  dependencies:
-    accepts "^1.3.7"
-    content-type "^1.0.4"
-    http-errors "^1.7.3"
-    raw-body "^2.4.1"
-
 express-graphql@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/express-graphql/-/express-graphql-0.7.1.tgz#6c7712ee966c3aba1930e064ea4c8181e56fd3ef"
@@ -606,6 +582,16 @@ express-graphql@0.7.1:
     content-type "^1.0.4"
     http-errors "^1.7.1"
     raw-body "^2.3.3"
+
+express-graphql@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/express-graphql/-/express-graphql-0.9.0.tgz#00fd8552f866bac5c9a4612b2c4c82076107b3c2"
+  integrity sha512-wccd9Lb6oeJ8yHpUs/8LcnGjFUUQYmOG9A5BNLybRdCzGw0PeUrtBxsIR8bfiur6uSW4OvPkVDoYH06z6/N9+w==
+  dependencies:
+    accepts "^1.3.7"
+    content-type "^1.0.4"
+    http-errors "^1.7.3"
+    raw-body "^2.4.1"
 
 fill-range@^7.0.1:
   version "7.0.1"
@@ -682,7 +668,7 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
   integrity sha512-a30VEBm4PEdx1dRB7MFK7BejejvCvBronbLjht+sHuGYj8PHs7M/5Z+rt5lw551vZ7yfTCj4Vuyy3mSJytDWRQ==
 
-graphql@*:
+graphql@^14.5.3:
   version "14.5.8"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.5.8.tgz#504f3d3114cb9a0a3f359bbbcf38d9e5bf6a6b3c"
   integrity sha512-MMwmi0zlVLQKLdGiMfWkgQD7dY/TUKt4L+zgJ/aR0Howebod3aNgP5JkgvAULiR2HPVZaP2VEElqtdidHweLkg==

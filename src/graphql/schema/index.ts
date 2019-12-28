@@ -1,6 +1,7 @@
 import { GraphQLObjectType, GraphQLSchema } from "graphql";
 
 import { ArtistSchema } from "./artist.schema";
+import { TrackSchema } from "./track.schema";
 
 export const graphqlSchema = new GraphQLSchema({
   query: new GraphQLObjectType({
@@ -9,5 +10,5 @@ export const graphqlSchema = new GraphQLSchema({
     }),
     name: "Query"
   }),
-  types: [...ArtistSchema.types]
+  types: [...ArtistSchema.types, ...TrackSchema.types]
 });
