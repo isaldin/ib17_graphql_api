@@ -6,16 +6,15 @@ import "../models/track.model";
 interface IAllArtistsInput {
   offset: number;
   limit: number;
-  search: string | null;
+  searchCriteria: string | null;
 }
 const allArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
-  let result: IArtist[] = [];
-  result = await Artist.aggregate([
+  return await Artist.aggregate([
     {
       $match: {
         $or: [
-          { name: { $regex: new RegExp(input.search, "ig") } },
-          { username: { $regex: new RegExp(input.search, "ig") } }
+          { name: { $regex: new RegExp(input.searchCriteria, "ig") } },
+          { username: { $regex: new RegExp(input.searchCriteria, "ig") } }
         ]
       }
     },
@@ -38,8 +37,6 @@ const allArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
     { $skip: input.offset },
     { $limit: input.limit }
   ]);
-
-  return result;
 };
 
 const artistById = async (id: string | null): Promise<IArtist | null> => {
@@ -52,4 +49,12 @@ const artistById = async (id: string | null): Promise<IArtist | null> => {
   return artist;
 };
 
-export default { allArtists, artistById };
+const countOfArtists = async (searchCriteria: string | null): Promise<number> =>
+  await Artist.countDocuments({
+    $or: [
+      { name: { $regex: new RegExp(searchCriteria, "ig") } },
+      { username: { $regex: new RegExp(searchCriteria, "ig") } }
+    ]
+  });
+
+export default { allArtists, artistById, countOfArtists };

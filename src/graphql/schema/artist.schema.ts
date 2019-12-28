@@ -48,18 +48,28 @@ const query = {
       const artists = await artistController.allArtists({
         limit,
         offset,
-        search: searchCriteria
+        searchCriteria
       });
-      return map(
-        artist => ({
-          id: prop("_id", artist),
-          name: prop("name", artist),
-          username: prop("username", artist)
-        }),
-        artists
-      );
+      const count = await artistController.countOfArtists(searchCriteria);
+      return {
+        count,
+        list: map(
+          artist => ({
+            id: prop("_id", artist),
+            name: prop("name", artist),
+            username: prop("username", artist)
+          }),
+          artists
+        )
+      };
     },
-    type: new GraphQLList(artistType)
+    type: new GraphQLObjectType({
+      fields: () => ({
+        count: { type: GraphQLInt },
+        list: { type: new GraphQLList(artistType) }
+      }),
+      name: "Artists"
+    })
   }
 };
 
