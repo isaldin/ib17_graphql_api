@@ -30,6 +30,8 @@ mongoose
   // tslint:disable-next-line: no-console
   .catch(err => console.error("Something went wrong", err));
 
+mongoose.set("debug", true);
+
 app.use(
   mount(
     "/graphql",
