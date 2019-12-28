@@ -10,12 +10,6 @@ const graphqlHTTP = require("koa-graphql");
 
 import { graphqlSchema } from "./graphql/schema";
 
-type Mongoose = typeof mongoose.connection;
-
-interface IAppContext extends DefaultContext {
-  db: Mongoose;
-}
-
 const app = new Koa<DefaultState, DefaultContext>();
 // const router = new Router();
 dotenv.config();
@@ -48,5 +42,5 @@ app.use(
 
 app.listen(port, () => {
   // tslint:disable-next-line: no-console
-  console.log("Server running on port 3000");
+  console.log("Server running on port %d", port);
 });
