@@ -7,11 +7,26 @@ import {
 import { map, prop } from "ramda";
 
 import artistController from "../../controllers/artist.controller";
+import trackController from "../../controllers/track.controller";
+import { trackType } from "./track.schema";
 
-const artistType = new GraphQLObjectType({
+export const artistType = new GraphQLObjectType({
   fields: () => ({
     id: { type: GraphQLString },
     name: { type: GraphQLString },
+    track: {
+      args: { round: { type: GraphQLInt } },
+      resolve: (parent, args) =>
+        trackController.getTrack({
+          authorId: parent.id,
+          round: args.round
+        }),
+      type: trackType
+    },
+    tracks: {
+      resolve: parent => trackController.getTracks({ authorId: parent.id }),
+      type: new GraphQLList(trackType)
+    },
     username: { type: GraphQLString }
   }),
   name: "Artist"
@@ -26,14 +41,14 @@ const query = {
   artists: {
     args: {
       limit: { type: GraphQLInt },
-      name: { type: GraphQLString },
-      offset: { type: GraphQLInt }
+      offset: { type: GraphQLInt },
+      searchCriteria: { type: GraphQLString }
     },
-    resolve: async (root, { limit = 10, name, offset = 0, id }) => {
+    resolve: async (root, { limit = 10, searchCriteria, offset = 0, id }) => {
       const artists = await artistController.allArtists({
         limit,
         offset,
-        search: name
+        search: searchCriteria
       });
       return map(
         artist => ({

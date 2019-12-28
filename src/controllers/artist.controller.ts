@@ -1,6 +1,6 @@
 import * as mongoose from "mongoose";
 
-import Artist, { IArtist } from "../models/artist.model";
+import { Artist, IArtist } from "../models/artist.model";
 import "../models/track.model";
 
 interface IAllArtistsInput {
