@@ -1,16 +1,15 @@
 import { MiddlewareType } from "./types";
 
-const middleware: MiddlewareType = async (ctx, next) => {
+const pulseMiddleware: MiddlewareType = async (ctx, next) => {
   if (ctx.request.path === "/pulse") {
     if (ctx.request.headers.pulsetoken === "asdfqwer1234") {
       ctx.response.status = 200;
-      next();
     } else {
-      ctx.response.status = 404;
+      ctx.throw(404, `${ctx.path} : Endpoint not found`);
     }
   } else {
-    next();
+    await next();
   }
 };
 
-export default middleware;
+export default pulseMiddleware;
