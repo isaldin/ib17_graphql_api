@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/index.ts"
+    "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec DEBUG=koa* ts-node ./src/index.ts"
   },
   "dependencies": {
     "dotenv": "8.2.0",
