@@ -9,8 +9,10 @@ import * as mongoose from "mongoose";
 const graphqlHTTP = require("koa-graphql");
 
 import { graphqlSchema } from "./graphql/schema";
+import { PulseMiddleware } from "./middlewares";
+import { IAppContext, IAppState } from "./middlewares/types";
 
-const app = new Koa<DefaultState, DefaultContext>();
+const app = new Koa<IAppState, IAppContext>();
 // const router = new Router();
 dotenv.config();
 
@@ -30,7 +32,9 @@ mongoose
   // tslint:disable-next-line: no-console
   .catch(err => console.error("Something went wrong", err));
 
-mongoose.set("debug", true);
+mongoose.set("debug", !process.env.PRODUCTION);
+
+app.use(PulseMiddleware);
 
 app.use(
   mount(
