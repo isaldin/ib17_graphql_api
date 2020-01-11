@@ -1,52 +1,40 @@
-import * as dotenv from "dotenv";
-import * as Koa from "koa";
-import { DefaultContext, DefaultState } from "koa";
-import * as mount from "koa-mount";
-// import * as Router from "koa-router";
-import * as mongoose from "mongoose";
+import "reflect-metadata";
+import dotenv from "dotenv";
+import fastify from "fastify";
+import fastifyGQL from "fastify-gql";
+import mongoose from "mongoose";
+import { buildSchema } from "type-graphql";
 
-// tslint:disable-next-line: no-var-requires
-const graphqlHTTP = require("koa-graphql");
+import { FastifyInstanceType } from "./types";
+import ArtistResolver from "./graphql/resolvers/artists.resolver";
 
-import { graphqlSchema } from "./graphql/schema";
-import { PulseMiddleware } from "./middlewares";
-import { IAppContext, IAppState } from "./middlewares/types";
-
-const app = new Koa<IAppState, IAppContext>();
-// const router = new Router();
 dotenv.config();
 
-const port = process.env.PORT || 3000;
-const uri = process.env.MONGO_URI;
+const port = parseInt(process.env.PORT || "3000", 10);
+const uri = process.env.MONGO_URI || "";
 
-mongoose
-  .connect(uri, {
+const app: FastifyInstanceType = fastify();
+
+(async () => {
+  await mongoose.connect(uri, {
     useCreateIndex: true,
     useFindAndModify: false,
     useNewUrlParser: true,
     useUnifiedTopology: true
-  })
-  .then((db: typeof mongoose) => {
-    app.context.db = db.connection;
-  })
-  // tslint:disable-next-line: no-console
-  .catch(err => console.error("Something went wrong", err));
+  });
+  mongoose.set("debug", !process.env.PRODUCTION);
 
-mongoose.set("debug", !process.env.PRODUCTION);
+  const schema = await buildSchema({
+    resolvers: [ArtistResolver]
+  });
 
-app.use(PulseMiddleware);
+  app.register(fastifyGQL, {
+    schema,
+    graphiql: !process.env.PRODUCTION
+  });
 
-app.use(
-  mount(
-    "/graphql",
-    graphqlHTTP({
-      graphiql: true,
-      schema: graphqlSchema
-    })
-  )
-);
-
-app.listen(port, () => {
-  // tslint:disable-next-line: no-console
-  console.log("Server running on port %d", port);
-});
+  app.listen(port, () => {
+    // tslint:disable-next-line: no-console
+    console.log("Server running on port %d", port);
+  });
+})();

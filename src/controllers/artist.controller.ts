@@ -13,8 +13,8 @@ const allArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
     {
       $match: {
         $or: [
-          { name: { $regex: new RegExp(input.searchCriteria, "ig") } },
-          { username: { $regex: new RegExp(input.searchCriteria, "ig") } }
+          { name: { $regex: new RegExp(input.searchCriteria || "", "ig") } },
+          { username: { $regex: new RegExp(input.searchCriteria || "", "ig") } }
         ]
       }
     },
@@ -40,7 +40,7 @@ const allArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
 };
 
 const artistById = async (id: string | null): Promise<IArtist | null> => {
-  if (!mongoose.Types.ObjectId.isValid(id)) {
+  if (!id || !mongoose.Types.ObjectId.isValid(id)) {
     return null;
   }
 
@@ -52,8 +52,8 @@ const artistById = async (id: string | null): Promise<IArtist | null> => {
 const countOfArtists = async (searchCriteria: string | null): Promise<number> =>
   await Artist.countDocuments({
     $or: [
-      { name: { $regex: new RegExp(searchCriteria, "ig") } },
-      { username: { $regex: new RegExp(searchCriteria, "ig") } }
+      { name: { $regex: new RegExp(searchCriteria || "", "ig") } },
+      { username: { $regex: new RegExp(searchCriteria || "", "ig") } }
     ]
   });
 
