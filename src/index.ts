@@ -37,7 +37,7 @@ const app: FastifyInstanceType = fastify();
     graphiql: !process.env.PRODUCTION
   });
 
-  app.listen(port, () => {
+  app.listen(port, "0.0.0.0", () => {
     // tslint:disable-next-line: no-console
     console.log("Server running on port %d", port);
   });
