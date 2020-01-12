@@ -5,7 +5,7 @@ class Track {
   @Field(type => ID)
   id: string;
 
-  @Field()
+  @Field({ nullable: true })
   path: string;
 
   @Field()
