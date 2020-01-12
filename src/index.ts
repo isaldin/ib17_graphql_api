@@ -4,6 +4,7 @@ import fastify from "fastify";
 import fastifyGQL from "fastify-gql";
 import mongoose from "mongoose";
 import { buildSchema } from "type-graphql";
+import fastifyCompress from "fastify-compress";
 
 import { FastifyInstanceType } from "@app/types";
 import ArtistResolver from "@app/graphql/resolvers/artists.resolver";
@@ -28,6 +29,8 @@ const app: FastifyInstanceType = fastify();
   const schema = await buildSchema({
     resolvers: [ArtistResolver, TrackResolver]
   });
+
+  app.register(fastifyCompress);
 
   app.register(fastifyGQL, {
     schema,
