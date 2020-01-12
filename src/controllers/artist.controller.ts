@@ -1,15 +1,31 @@
-import * as mongoose from "mongoose";
+import mongoose, { mongo } from "mongoose";
+import DataLoader from "dataloader";
+import { map, find, filter } from "ramda";
 
-import { Artist, IArtist } from "../models/artist.model";
-import "../models/track.model";
+import { Artist, IArtist } from "@app/models/artist.model";
+
+const ArtistLoader = new DataLoader(
+  async (ids: readonly string[]): Promise<(IArtist | null)[]> => {
+    const artists = await Artist.find({ _id: { $in: ids } });
+
+    const result = map(
+      id => find(artist => artist._id.equals(id), artists) || null,
+      ids
+    );
+
+    return result;
+  }
+);
 
 interface IAllArtistsInput {
   offset: number;
   limit: number;
   searchCriteria: string | null;
 }
-const allArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
-  return await Artist.aggregate([
+const allArtists = async (
+  input: IAllArtistsInput
+): Promise<(IArtist | null)[]> => {
+  const artists: IArtist[] = await Artist.aggregate([
     {
       $match: {
         $or: [
@@ -37,14 +53,23 @@ const allArtists = async (input: IAllArtistsInput): Promise<IArtist[]> => {
     { $skip: input.offset },
     { $limit: input.limit }
   ]);
+
+  const artistsIds = map((artist: IArtist) => artist._id.toString(), artists);
+  const rawData = await ArtistLoader.loadMany(artistsIds);
+
+  return filter(
+    // @ts-ignore // FIXME: to figure out
+    item => item && item._id !== undefined,
+    rawData
+  );
 };
 
-const artistById = async (id: string | null): Promise<IArtist | null> => {
-  if (!id || !mongoose.Types.ObjectId.isValid(id)) {
+const artistById = async (id: string): Promise<IArtist | null> => {
+  if (!mongoose.Types.ObjectId.isValid(id)) {
     return null;
   }
 
-  const artist = await Artist.findOne({ _id: id }).populate("tracks");
+  const artist = await ArtistLoader.load(id);
 
   return artist;
 };

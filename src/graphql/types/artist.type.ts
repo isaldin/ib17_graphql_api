@@ -7,6 +7,9 @@ class Artist {
 
   @Field()
   name: string;
+
+  @Field(type => [ID])
+  tracksIDs: string[];
 }
 
 export default Artist;

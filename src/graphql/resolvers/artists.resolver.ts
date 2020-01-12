@@ -1,8 +1,19 @@
-import { Resolver, Query, Arg, InputType, Field } from "type-graphql";
+import {
+  Resolver,
+  Query,
+  Arg,
+  InputType,
+  Field,
+  Root,
+  FieldResolver
+} from "type-graphql";
 import { map } from "ramda";
 
-import Artist from "../types/artist.type";
-import artistsController from "../../controllers/artist.controller";
+import Artist from "@app/graphql/types/artist.type";
+import Track from "@app/graphql/types/track.type";
+import artistsController from "@app/controllers/artist.controller";
+import { ITrack } from "@app/models/track.model";
+import trackController from "@app/controllers/track.controller";
 
 @InputType()
 class ArtistsInputType {
@@ -16,22 +27,48 @@ class ArtistsInputType {
   searchCriteria: string | null;
 }
 
-@Resolver(Artist)
-class ArtistsResolver {
-  @Query(() => [Artist])
-  async artists(
-    @Arg("input")
-    input: ArtistsInputType
-  ): Promise<Artist[]> {
+@Resolver(of => Artist)
+class ArtistResolver {
+  @Query(returns => [Artist])
+  async artists(@Arg("input") input: ArtistsInputType): Promise<Artist[]> {
     const items = await artistsController.allArtists(input);
     return map(
       item => ({
-        id: `${item.artistId}`,
-        name: item.name || item.username
+        id: `${item!._id}`,
+        name: item!.name || item!.username,
+        tracksIDs: map((track: ITrack) => track._id.toString(), item!.tracks)
+      }),
+      items
+    );
+  }
+
+  @Query(returns => Artist, { nullable: true })
+  async artist(@Arg("id") id: string): Promise<Artist | null> {
+    const result = await artistsController.artistById(id);
+    if (!result) {
+      return null;
+    }
+
+    return {
+      id: result._id.toString(),
+      name: result.name || result.username,
+      tracksIDs: map((track: ITrack) => track._id.toString(), result.tracks)
+    };
+  }
+
+  @FieldResolver(type => [Track])
+  async tracks(@Root() artist: Artist): Promise<Track[]> {
+    const items = await trackController.getTracks(artist.tracksIDs);
+    return map(
+      (item: ITrack) => ({
+        id: item._id.toString(),
+        path: item.path,
+        round: item.round,
+        artistID: item.artist.toString()
       }),
       items
     );
   }
 }
 
-export default ArtistsResolver;
+export default ArtistResolver;

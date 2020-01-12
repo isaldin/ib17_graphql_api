@@ -1,12 +1,12 @@
-import { Document, model, Model, Schema } from "mongoose";
-
-import { IArtist } from "./artist.model";
+import { Document, model, Model, Schema, Types } from "mongoose";
 
 export interface ITrack extends Document {
-  artist: IArtist | string;
-  pair?: IArtist | string;
+  _id: Types.ObjectId;
+  artist: Types.ObjectId;
+  pair?: Types.ObjectId;
   path: string;
   rating?: number;
+  round: number;
 }
 
 const TrackSchema = new Schema({

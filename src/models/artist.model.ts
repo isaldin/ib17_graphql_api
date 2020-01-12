@@ -1,8 +1,9 @@
 import { Document, model, Model, Schema, Types } from "mongoose";
 
-import { ITrack } from "./track.model";
+import { ITrack } from "@app/models/track.model";
 
 export interface IArtist extends Document {
+  _id: Types.ObjectId;
   artistId: number;
   location?: string;
   name?: string;

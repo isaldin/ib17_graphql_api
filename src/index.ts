@@ -5,8 +5,9 @@ import fastifyGQL from "fastify-gql";
 import mongoose from "mongoose";
 import { buildSchema } from "type-graphql";
 
-import { FastifyInstanceType } from "./types";
-import ArtistResolver from "./graphql/resolvers/artists.resolver";
+import { FastifyInstanceType } from "@app/types";
+import ArtistResolver from "@app/graphql/resolvers/artists.resolver";
+import TrackResolver from "@app/graphql/resolvers/track.resolver";
 
 dotenv.config();
 
@@ -25,7 +26,7 @@ const app: FastifyInstanceType = fastify();
   mongoose.set("debug", !process.env.PRODUCTION);
 
   const schema = await buildSchema({
-    resolvers: [ArtistResolver]
+    resolvers: [ArtistResolver, TrackResolver]
   });
 
   app.register(fastifyGQL, {

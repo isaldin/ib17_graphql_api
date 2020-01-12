@@ -10,7 +10,11 @@
     "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@app/*": ["./*"]
+    }
   },
   "include": ["./src/**/*"],
   "exclude": ["./node_modules/**/*"]
