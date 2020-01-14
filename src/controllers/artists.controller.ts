@@ -1,6 +1,7 @@
 import { IArtistModel, ArtistModel } from "@app/models/artist.model";
 
-type SortTypes = "sort";
+const DEFAULT_LIMIT = 10;
+const DEFAULT_OFFSET = 0;
 
 // default sort by rating (see tests)
 // sorting priority:
@@ -9,7 +10,10 @@ type SortTypes = "sort";
 //  overall_judges
 //  overall_popular
 const getAllArtists = async (
-  sort: SortTypes = "sort"
+  input: {
+    limit?: number;
+    offset?: number;
+  } = { limit: 10, offset: 0 }
 ): Promise<IArtistModel[]> => {
   const artists = await ArtistModel.aggregate([
     {
@@ -61,6 +65,12 @@ const getAllArtists = async (
         overall_judges_rating: -1,
         overall_popular_rating: -1
       }
+    },
+    {
+      $skip: input.offset || DEFAULT_OFFSET
+    },
+    {
+      $limit: input.limit || DEFAULT_LIMIT
     }
   ]);
   return artists;

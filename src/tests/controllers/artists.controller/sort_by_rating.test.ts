@@ -1,12 +1,12 @@
 import { map, prop } from "ramda";
 
 import DBHelper from "@app/tests/__helpers/db";
-import artistsSeeder from "@app/tests/__helpers/artistsSeeder";
+import artistsSeeder from "@app/tests/__seeders/artists.seeder";
 import { ArtistModel, IArtistModel } from "@app/models/artist.model";
 import { TrackModel } from "@app/models/track.model";
 import { artistsController } from "@app/controllers";
 
-describe("Artist controller", () => {
+describe("artists.controller", () => {
   let dbHelper: DBHelper;
 
   beforeAll(async () => {
@@ -18,7 +18,7 @@ describe("Artist controller", () => {
     await dbHelper.stop();
   });
 
-  const seedTracksForTestSortingByRating = async () => {
+  const _seedTracksForTestSortingByRating = async () => {
     await artistsSeeder.seed();
 
     const addTracksToArtist = async (
@@ -214,10 +214,10 @@ describe("Artist controller", () => {
   describe("getAllArtists()", () => {
     beforeAll(async () => {
       await ArtistModel.deleteMany({});
-      await seedTracksForTestSortingByRating();
+      await _seedTracksForTestSortingByRating();
     });
 
-    test("sort by rating (default)", async () => {
+    it("should sort by rating (default sorting type)", async () => {
       const artists = await artistsController.getAllArtists();
       const artistsNames = map(prop("name"), artists);
       expect(artistsNames).toStrictEqual([

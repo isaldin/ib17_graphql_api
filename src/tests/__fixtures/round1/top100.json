@@ -1,0 +1,6452 @@
+[
+  {
+    "id": 3139,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_Oxxxymiron_6702900.mp3",
+    "path": "/upload/music/ib17_r1_Oxxxymiron_6702900.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 3011,
+    "rating_sum": 1000,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Oxxxymiron",
+      "profile": { "location": " Санкт-Петербург", "name": "Oxxxymiron" }
+    },
+    "ratings": [
+      {
+        "id": 1419,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 1420,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Трэк выделяется разнообразием содержания. "
+        },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 11398,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 11856,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 13540,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      }
+    ],
+    "judge_rating_sum": 25
+  },
+  {
+    "id": 6984,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Simptomaponika_c64269a.mp3",
+    "path": "/upload/music/ib17_r1_Simptomaponika_c64269a.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 6984,
+    "rating_sum": 999,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Simptomaponika",
+      "profile": { "location": "Киев", "name": "Simptomaponika" }
+    },
+    "ratings": [
+      {
+        "id": 24428,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Тут отлично всё! Жду во втором!"
+        },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 27792,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 29429,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 31618,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 51236,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 25
+  },
+  {
+    "id": 5468,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_Drummatix_051c7ea.mp3",
+    "path": "/upload/music/ib17_r1_Drummatix_051c7ea.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 5629,
+    "rating_sum": 998,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Drummatix",
+      "profile": { "location": "Омск", "name": "DRUMMATIX" }
+    },
+    "ratings": [
+      {
+        "id": 2359,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Классно, Кать! думаю, на этом баттле наведёшь шороху, удачи."
+        },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 7724,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Огнище" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 9913,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 11348,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 13580,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      }
+    ],
+    "judge_rating_sum": 25
+  },
+  {
+    "id": 3935,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_Ram_e8a488b.mp3",
+    "path": "/upload/music/ib17_r1_Ram_e8a488b.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 4007,
+    "rating_sum": 997,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Ram",
+      "profile": { "location": "Москва", "name": "Грязный Рамирес" }
+    },
+    "ratings": [
+      {
+        "id": 8988,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 9246,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 10179,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "спасибо" },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 13858,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 18103,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      }
+    ],
+    "judge_rating_sum": 25
+  },
+  {
+    "id": 2703,
+    "bit_author": "Method man",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_Emili_ro_f448109.mp3",
+    "path": "/upload/music/ib17_r1_Emili_ro_f448109.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2556,
+    "rating_sum": 996,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Emili_ro",
+      "profile": { "location": "Уральск", "name": "" }
+    },
+    "ratings": [
+      {
+        "id": 1008,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Это дико стильно. В подборку."
+        },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 1009,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Просто шаманский стайл, я в лёгком трансе. Очень гармоничное сочетание голоса, интонаций, бита, текста."
+        },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 11569,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 19893,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "я танцую" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 28394,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      }
+    ],
+    "judge_rating_sum": 25
+  },
+  {
+    "id": 2704,
+    "bit_author": "Граф",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_Graf_eb53ce1.mp3",
+    "path": "/upload/music/ib17_r1_Graf_eb53ce1.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2555,
+    "rating_sum": 995,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Graf",
+      "profile": { "location": "Оренбург", "name": "Граф (ALL1)" }
+    },
+    "ratings": [
+      {
+        "id": 1010,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Развеселый саунд, развеселые эдлибы. Читка, текст - все на уровне, рифмовка на разные части речи, составная, на созвучия. "
+        },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 11879,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 24676,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 26820,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 51798,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      }
+    ],
+    "judge_rating_sum": 25
+  },
+  {
+    "id": 9372,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_StevieInsane_c57d2cc.mp3",
+    "path": "/upload/music/ib17_r1_StevieInsane_c57d2cc.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9372,
+    "rating_sum": 994,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "StevieInsane",
+      "profile": { "location": "Алчевск ", "name": "Stevie Insane" }
+    },
+    "ratings": [
+      {
+        "id": 23081,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 29419,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 29773,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 32966,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 52344,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      }
+    ],
+    "judge_rating_sum": 25
+  },
+  {
+    "id": 3498,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_XePyBum_9578b59.mp3",
+    "path": "/upload/music/ib17_r1_XePyBum_9578b59.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 3518,
+    "rating_sum": 993,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "XePyBum",
+      "profile": { "location": "Город, в котором меня нет", "name": "ХеРуВим" }
+    },
+    "ratings": [
+      {
+        "id": 7775,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Да. " },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 11329,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 11609,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 11657,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 13334,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      }
+    ],
+    "judge_rating_sum": 25
+  },
+  {
+    "id": 7631,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Loc-Dog_7a93544.mp3",
+    "path": "/upload/music/ib17_r1_Loc-Dog_7a93544.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 7631,
+    "rating_sum": 992,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Loc-Dog",
+      "profile": { "location": "Москва", "name": null }
+    },
+    "ratings": [
+      {
+        "id": 26977,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 28392,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "С крутым возвращением." },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 29703,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 30219,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 51639,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 25
+  },
+  {
+    "id": 5845,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_stanley_puzzle_2fb098f.mp3",
+    "path": "/upload/music/ib17_r1_stanley_puzzle_2fb098f.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 6001,
+    "rating_sum": 991,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "stanley_puzzle",
+      "profile": { "location": "санкт-петербург", "name": "Стэнли Пазл" }
+    },
+    "ratings": [
+      {
+        "id": 11535,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 15650,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 16299,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 22935,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 26998,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 25
+  },
+  {
+    "id": 2314,
+    "bit_author": "Halsey",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 34 },
+    "name": "ib17_r1_LeanJe_c7b79d5.mp3",
+    "path": "/upload/music/ib17_r1_LeanJe_c7b79d5.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2146,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "LeanJe",
+      "profile": { "location": "Санкт-Петербург", "name": "LeanJe" }
+    },
+    "ratings": [
+      {
+        "id": 304,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Флоу показал. Показал как ты умеешь играть своим голосом. Показал, что ты себя чувствуешь уверенно на бите. Можешь отличную атмосферу создавать. Все. что нужно для первого раунда. "
+        },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 305,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Хм, очень интересно. Напоминаешь Мак Сима Мгла."
+        },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 306,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 307,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Жаль, что загружена обрезанная версия трэка. Совершенно новаторская манера исполнения для рэпа, экспериментальное звучание и нетипичное смысловое содержание, за полную версию с клипом - 6 звезд."
+        },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 53751,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 7435,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_ST1M_6632e71.mp3",
+    "path": "/upload/music/ib17_r1_ST1M_6632e71.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 7435,
+    "rating_sum": 9,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "ST1M",
+      "profile": { "location": "Tallinn", "name": "ST1M" }
+    },
+    "ratings": [
+      {
+        "id": 23169,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 27428,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 29178,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Кому-то стало скучно)))) " },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 38654,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 53784,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 9247,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Lozzy_a4231fa.mp3",
+    "path": "/upload/music/ib17_r1_Lozzy_a4231fa.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9247,
+    "rating_sum": 7,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "LaZ",
+      "profile": { "location": "Mосква", "name": "LAZ" }
+    },
+    "ratings": [
+      {
+        "id": 24294,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 25077,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 47373,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 47649,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 52327,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "Хорош" },
+        "judge": {
+          "id": 9727,
+          "username": "PhantomJohna",
+          "name": "FJ (PhantomJohn'a)"
+        }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 8742,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Alyadjey_2d43e5e.mp3",
+    "path": "/upload/music/ib17_r1_Alyadjey_2d43e5e.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8742,
+    "rating_sum": 4,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Alyadjey",
+      "profile": { "location": "Санкт-Петербург", "name": "Alya djey" }
+    },
+    "ratings": [
+      {
+        "id": 23223,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 23537,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 24238,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 27000,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 30843,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 888,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49, "name": "FOSTIN - В долгий путь.mp3" },
+    "name": "ib17_r1_fostinnikita_ebe55aa.mp3",
+    "path": "/upload/music/ib17_r1_fostinnikita_ebe55aa.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 889,
+    "rating_sum": 10,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "FOSTIN",
+      "profile": {
+        "location": "Volgograd . Волгоград . Питер",
+        "name": "FOSTIN "
+      }
+    },
+    "ratings": [
+      {
+        "id": 3566,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 3567,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Интересно по исполнению, хорошо сочетаешься с инструменталом. И текст вполне себе интересен. Круто."
+        },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 16604,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 27498,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 54827,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Замечательно!" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 6024,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_BES_5bf3f8f.mp3",
+    "path": "/upload/music/ib17_r1_BES_5bf3f8f.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 6182,
+    "rating_sum": 9,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "BES",
+      "profile": { "location": "Пятигорск", "name": "BES [DA TEMPO]" }
+    },
+    "ratings": [
+      {
+        "id": 8416,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 11854,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 15607,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 16884,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 27419,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 5018,
+    "bit_author": "",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_mcsmarsa_83cc4a1.mp3",
+    "path": "/upload/music/ib17_r1_mcsmarsa_83cc4a1.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 5154,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "mcsmarsa",
+      "profile": { "location": "Волгоград", "name": "Мс с Марса" }
+    },
+    "ratings": [
+      {
+        "id": 7099,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 11485,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 11521,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 11684,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 11752,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 4533,
+    "bit_author": "",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_mmf._14d2645.mp3",
+    "path": "/upload/music/ib17_r1_mmf._14d2645.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 4467,
+    "rating_sum": 8,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "mmf.",
+      "profile": { "location": "Брянск", "name": "ммф." }
+    },
+    "ratings": [
+      {
+        "id": 2094,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "08.09 0:35" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 6181,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 11724,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 11727,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 13658,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 9407,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Floor_5ca1f94.mp3",
+    "path": "/upload/music/ib17_r1_Floor_5ca1f94.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9407,
+    "rating_sum": 4,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Floor",
+      "profile": { "location": "Москва", "name": "Цокольный Этаж" }
+    },
+    "ratings": [
+      {
+        "id": 23175,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 39017,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      },
+      {
+        "id": 39024,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 39203,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 51718,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 9152,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_top-secret_6681497.mp3",
+    "path": "/upload/music/ib17_r1_top-secret_6681497.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9152,
+    "rating_sum": 8,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "top-secret",
+      "profile": { "location": "Новый Уренгой", "name": "top-secret" }
+    },
+    "ratings": [
+      {
+        "id": 23101,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 23118,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 29163,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      },
+      {
+        "id": 31799,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "В этот раз без дурных поступков?"
+        },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 52251,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 9408,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Iamjmarr_d8b5f17.mp3",
+    "path": "/upload/music/ib17_r1_Iamjmarr_d8b5f17.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9408,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Iamjmarr",
+      "profile": { "location": "Южно-Сахалинск", "name": "Джей Мар" }
+    },
+    "ratings": [
+      {
+        "id": 23113,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 25231,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 29031,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      },
+      {
+        "id": 31350,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 54341,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 206,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49, "name": "ИСТ - В долгий путь.mp3" },
+    "name": "ib17_r1_afrika_rulit_ss_4f64c21.mp3",
+    "path": "/upload/music/ib17_r1_afrika_rulit_ss_4f64c21.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 207,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "afrika_rulit_ss",
+      "profile": { "location": "Москва", "name": "ИСТ" }
+    },
+    "ratings": [
+      {
+        "id": 13351,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Приятно слушается. В том, что ты говоришь, чувствуется искренность. "
+        },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 14445,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 26947,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Это круто!" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 27671,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 30807,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 997,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50, "name": "If - в долгий путь (17ib).mp3" },
+    "name": "ib17_r1_martinich1991_6f7c0c0.mp3",
+    "path": "/upload/music/ib17_r1_martinich1991_6f7c0c0.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 998,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "If_",
+      "profile": { "location": "Иваново", "name": "If" }
+    },
+    "ratings": [
+      {
+        "id": 3824,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 17435,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 20622,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 49507,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 51566,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 1765,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50, "name": "Kasper - battle !.mp3" },
+    "name": "ib17_r1_1988kasper_6c304a7.mp3",
+    "path": "/upload/music/ib17_r1_1988kasper_6c304a7.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 1766,
+    "rating_sum": 6,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "1988kasper",
+      "profile": { "location": "Владивосток", "name": "Kasper" }
+    },
+    "ratings": [
+      {
+        "id": 5420,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 5421,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Идеально звучит на этом бите. 5 из 5. Лайтовый, но нешаблонный текст. "
+        },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 5422,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "Сильная и стильная заявка." },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 5423,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Один из лучших пока." },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 14871,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 6631,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 48 },
+    "name": "ib17_r1_PashaMorgan_ffca748.mp3",
+    "path": "/upload/music/ib17_r1_PashaMorgan_ffca748.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 6817,
+    "rating_sum": 6,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "PashaMorgan",
+      "profile": { "location": "Братск", "name": "Паша Морган" }
+    },
+    "ratings": [
+      {
+        "id": 8477,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 11781,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 11932,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 18791,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 24121,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 6633,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_Nervniy_3532bb7.mp3",
+    "path": "/upload/music/ib17_r1_Nervniy_3532bb7.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 6821,
+    "rating_sum": 7,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Nervniy",
+      "profile": { "location": "Nsk", "name": "Nervniy" }
+    },
+    "ratings": [
+      {
+        "id": 9639,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 11703,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 15547,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 19579,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 22386,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "спасибо" },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 7931,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_playingtheangel_a382704.mp3",
+    "path": "/upload/music/ib17_r1_playingtheangel_a382704.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 7931,
+    "rating_sum": 4,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "playingtheangel",
+      "profile": { "location": "Санкт-Петербург", "name": "playingtheangel" }
+    },
+    "ratings": [
+      {
+        "id": 23067,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 23087,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 29793,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 32952,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 51685,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 24
+  },
+  {
+    "id": 4361,
+    "bit_author": "ЧЕТ4РЕ",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_kussani_01ce9c1.mp3",
+    "path": "/upload/music/ib17_r1_kussani_01ce9c1.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 4469,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "kussani",
+      "profile": { "location": "Другой", "name": "kussani" }
+    },
+    "ratings": [
+      {
+        "id": 5997,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 8168,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 19123,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 21164,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 28866,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 8969,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_KolyaManyu_f1cfd56.mp3",
+    "path": "/upload/music/ib17_r1_KolyaManyu_f1cfd56.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8969,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "KolyaManyu",
+      "profile": { "location": "Москва", "name": "Коля Маню" }
+    },
+    "ratings": [
+      {
+        "id": 23120,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 23294,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 27043,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 30783,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Это очень круто! " },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 55831,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 9496,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_HYSKILLZ_92ef17c.mp3",
+    "path": "/upload/music/ib17_r1_HYSKILLZ_92ef17c.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9496,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "HYSKILLZ",
+      "profile": { "location": "Тольятти", "name": "HYSKILLZ(UNIVERSE)" }
+    },
+    "ratings": [
+      {
+        "id": 29637,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 30683,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 39608,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 51930,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 55464,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 8733,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_FLAME13OY_08b5b5d.mp3",
+    "path": "/upload/music/ib17_r1_FLAME13OY_08b5b5d.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8733,
+    "rating_sum": 4,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "FLAME13OY",
+      "profile": { "location": "Астрахань", "name": "FLAME13OY" }
+    },
+    "ratings": [
+      {
+        "id": 24471,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 25046,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 26965,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 30084,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 32680,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 3115,
+    "bit_author": "prod. Ohmylord!",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_Berlov_c77a5c0.mp3",
+    "path": "/upload/music/ib17_r1_Berlov_c77a5c0.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2933,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Berlov",
+      "profile": { "location": "Иркутск", "name": "Berlov" }
+    },
+    "ratings": [
+      {
+        "id": 1392,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Звучит классно. Хотелось бы более баттловые вещи наверное видеть от участников, но достойно, между 4 и 5 сомневался.Но ты очень музыкальный это подкупило, классный вокал."
+        },
+        "judge": {
+          "id": 3053,
+          "username": "R1Fmabes",
+          "name": "r1fmabes[#2Типа]"
+        }
+      },
+      {
+        "id": 7069,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 10772,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 11639,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 16075,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 812,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": {
+      "duration": 49,
+      "name": "GaoDagamo - В долгий путь (BEATMAGIK music).mp3"
+    },
+    "name": "ib17_r1_gaodagamo_583279a.mp3",
+    "path": "/upload/music/ib17_r1_gaodagamo_583279a.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 813,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "gaodagamo",
+      "profile": { "location": "39", "name": "GaoDagamo" }
+    },
+    "ratings": [
+      {
+        "id": 3413,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 3414,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Оценка говорит сама за себя" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 16681,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "ну этот трек  мы на стриме слушали)"
+        },
+        "judge": {
+          "id": 2104,
+          "username": "TimeBusters",
+          "name": "Time Busters"
+        }
+      },
+      {
+        "id": 18010,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 26961,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 559,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49, "name": "Freid - В Долгий Путь.mp3" },
+    "name": "ib17_r1_kesha.kuleshov.89_d417c52.mp3",
+    "path": "/upload/music/ib17_r1_kesha.kuleshov.89_d417c52.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 560,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "kesha.kuleshov.89",
+      "profile": { "location": "Камчатка", "name": "Freid" }
+    },
+    "ratings": [
+      {
+        "id": 2803,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 2804,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Без комментариев, круто" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 11335,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 15165,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 18572,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 5957,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_ZagiBock_4d61298.mp3",
+    "path": "/upload/music/ib17_r1_ZagiBock_4d61298.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 6112,
+    "rating_sum": 8,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "ZagiBock",
+      "profile": { "location": "Москва", "name": "Заги Бок" }
+    },
+    "ratings": [
+      {
+        "id": 8862,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 11716,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 14153,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 23587,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 27482,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 4180,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_ZLOIMALOI_21b4200.mp3",
+    "path": "/upload/music/ib17_r1_ZLOIMALOI_21b4200.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 4280,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "ZLOIMALOI",
+      "profile": { "location": "Новокузнецк ", "name": "ЗЛОЙ МАЛОЙ" }
+    },
+    "ratings": [
+      {
+        "id": 1949,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Лично я даже после третьего прослушивания посмеялся с этого трека. Для отбора это вполне сойдет. Бодро, весело, качево. Спасибо, что Окси разрешил вам всем сдать трек на баттл) Однако, такой стиль не дойдет дальше третьего-четвертого раунда, быстро всем надоест. Если в парных раундах начнешь удивлять, будет превосходно. А пока это пять. "
+        },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 1950,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Эпатажные панчи, hah. Исполнение, текст, рифмы - все на уровне. "
+        },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 11778,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 12787,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 15045,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 2390,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_Freddy_614f817.mp3",
+    "path": "/upload/music/ib17_r1_Freddy_614f817.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2223,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Freddy",
+      "profile": { "location": "Москва", "name": "Фредди К." }
+    },
+    "ratings": [
+      {
+        "id": 471,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "хуяссе ты залетел! у меня аж волосы вспыхнули на жопе. слушать такое в плейре не стал бы, но в рамках критериев на отбор - вопросянов нет к тебе. лови пятулю звёздную."
+        },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 472,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Грязный Ра-Мир ес" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 8322,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 10009,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 52568,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 9579,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_Rem_digga_3385391.mp3",
+    "path": "/upload/music/ib17_r1_Rem_digga_3385391.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9579,
+    "rating_sum": 7,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Rem_digga",
+      "profile": { "location": "Гуково ", "name": "Рем Дигга" }
+    },
+    "ratings": [
+      {
+        "id": 24701,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 26623,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 28642,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 29115,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      },
+      {
+        "id": 30935,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 9596,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_Pastor_Napas_2da133e.mp3",
+    "path": "/upload/music/ib17_r1_Pastor_Napas_2da133e.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9596,
+    "rating_sum": 0,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Pastor_Napas",
+      "profile": { "location": "Танкоград", "name": "Pastor Napas" }
+    },
+    "ratings": [
+      {
+        "id": 28033,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 35653,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 35661,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 39639,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 52509,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 3218,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_FLOWPACK_adc4d8b.mp3",
+    "path": "/upload/music/ib17_r1_FLOWPACK_adc4d8b.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 3157,
+    "rating_sum": 4,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "FLOWPACK",
+      "profile": { "location": "INSTERBURG", "name": "FLOWPACK " }
+    },
+    "ratings": [
+      {
+        "id": 1456,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Никаких долгих интро, никакой раскачки, с первых секунд и до конца звучит мощно и уверенно на бите, качественный трэк."
+        },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 1457,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Оценка говорит сама за себя. "
+        },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 11633,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 18188,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6844, "username": "Pnd", "name": null }
+      },
+      {
+        "id": 22531,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 7827,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_ElMondegreen_7bbc60d.mp3",
+    "path": "/upload/music/ib17_r1_ElMondegreen_7bbc60d.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 7827,
+    "rating_sum": 0,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "ElMondegreen",
+      "profile": { "location": "Екатеринбург", "name": "El Mondegreen" }
+    },
+    "ratings": [
+      {
+        "id": 23146,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 23259,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 37762,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 51282,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 51756,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 662,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50, "name": "Qdrya-В долгий путь.mp3" },
+    "name": "ib17_r1_mckudrya_1ea91df.mp3",
+    "path": "/upload/music/ib17_r1_mckudrya_1ea91df.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 663,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "mckudrya",
+      "profile": { "location": "Msc", "name": "Qdrya" }
+    },
+    "ratings": [
+      {
+        "id": 3060,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Если бы не квадратные рифмы, то это была бы первая 5 из отсуженных 100 треков. Очень крутое и мощное исполнение, текст неплох. Будь добр, скинь трек в лс после открытия оценок, личная коллекция."
+        },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 3061,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Крутой!" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 27614,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 56675,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 56940,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 9368,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Veter_02f2457.mp3",
+    "path": "/upload/music/ib17_r1_Veter_02f2457.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9368,
+    "rating_sum": 4,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Veter",
+      "profile": { "location": "Новый Уренгой", "name": "Ветер" }
+    },
+    "ratings": [
+      {
+        "id": 23097,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 25072,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 31795,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "В этот раз без дурных поступков?"
+        },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 32459,
+        "status": 1,
+        "grade": null,
+        "params_json": { "comment": "", "grade": "4" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 51345,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 9650,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_RE-PAC@MAIL.RU_024c73e.mp3",
+    "path": "/upload/music/ib17_r1_RE-PAC@MAIL.RU_024c73e.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9650,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "RE-PAC@MAIL.RU",
+      "profile": { "location": "Москва", "name": "RE-PAC" }
+    },
+    "ratings": [
+      {
+        "id": 27936,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 27967,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 31653,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Здарова тигр " },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 33020,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6841, "username": "MAD-A", "name": "MAD-A" }
+      },
+      {
+        "id": 51439,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 5557,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_1000ofnewletters_5e6a99e.mp3",
+    "path": "/upload/music/ib17_r1_1000ofnewletters_5e6a99e.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 5713,
+    "rating_sum": 7,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "1000ofnewletters",
+      "profile": { "location": "г. Екатеринбург", "name": "#тысячановыхбукв" }
+    },
+    "ratings": [
+      {
+        "id": 6330,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 11376,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Я сначала поставил 4, но немного изменил критерии своих оценок после взлома и ставлю 5, но тебе не хватает в треках подобной направленности ярких и цепляющих строчек."
+        },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 11964,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 12317,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 18330,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 8118,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_AsperX_172214c.mp3",
+    "path": "/upload/music/ib17_r1_AsperX_172214c.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8118,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "AsperX",
+      "profile": { "location": "Москва", "name": "Asper X" }
+    },
+    "ratings": [
+      {
+        "id": 23581,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 24463,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Драйвово и круто. Молодец. " },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 27343,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 30034,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "Хорошо! Удачи дальше!" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 53735,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 962,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": {
+      "duration": 48,
+      "name": "Jazzy Ponika - В долгий путь (R349 prod.) [1-ый Раунд 17-ого Независимого].mp3"
+    },
+    "name": "ib17_r1_underhop93_be03a63.mp3",
+    "path": "/upload/music/ib17_r1_underhop93_be03a63.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 963,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "jazzy_ponika",
+      "profile": { "location": "Костанай", "name": "jazzy ponika " }
+    },
+    "ratings": [
+      {
+        "id": 3717,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 3718,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Никит, как и раньше отличное управление голосом, интересная игра нотками интонаций, добротная ритмика и дикция. По исполнению вопросов нет. А вот в тексте не хватает плотности содержимого, не за что толком зацепиться, да, неплохая рифма, но в целом все проходит мимо, ничего не запоминается. Старайся не писать ненужных сравнений и метафор ( как про птицу), поверь, они не несут ударности, а только банальностью сказываются на восприятии. В целом сочно, удачи !"
+        },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 15672,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 17870,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 31841,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 2498,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_MOXYRAY_6b3bd8b.mp3",
+    "path": "/upload/music/ib17_r1_MOXYRAY_6b3bd8b.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2333,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "MOXYRAY",
+      "profile": { "location": "Astrakhan", "name": "MOXYRAY" }
+    },
+    "ratings": [
+      {
+        "id": 677,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "речитатив очень приятный, прям слух ласкает. ждут от тебя аналогичного стаффа во втором!"
+        },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 6860,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 12346,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 18476,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 51371,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 7370,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_kraimvolshebnik_a98dffb.mp3",
+    "path": "/upload/music/ib17_r1_kraimvolshebnik_a98dffb.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 7370,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "kraimvolshebnik",
+      "profile": { "location": "Алматы", "name": "Крайм Волшебник" }
+    },
+    "ratings": [
+      {
+        "id": 23078,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 25188,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "для отбора слабо, ты можешь лучше в разы. "
+        },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 27005,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 33390,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 56843,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 7627,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_SkoroBudu_ef07c05.mp3",
+    "path": "/upload/music/ib17_r1_SkoroBudu_ef07c05.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 7627,
+    "rating_sum": 0,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "SkoroBudu",
+      "profile": { "location": "Тель-Авив", "name": null }
+    },
+    "ratings": [
+      {
+        "id": 23106,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 28315,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 29230,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 33599,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Очень плотный голос у тебя, но это прям андер в своих не самых лучших проявлениях, ибо собрал клише прям самые-самые. Пиши интересные истории, уровень есть, рифмовать умеешь. Надеюсь, пройдёшь отбор и сделаешь все выводы. Удачи!\n\nВ любом случае, спасибо за участие! Баттл такой масштабный благодаря каждому из вас. Возродим форум вместе!"
+        },
+        "judge": { "id": 1897, "username": "Multifrukt", "name": "Мультифрукт" }
+      },
+      {
+        "id": 51210,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 9423,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_KXMUSIC_1a2bbb3.mp3",
+    "path": "/upload/music/ib17_r1_KXMUSIC_1a2bbb3.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9423,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "KXMUSIC",
+      "profile": { "location": "Тюмень ", "name": "KXMUSIC" }
+    },
+    "ratings": [
+      {
+        "id": 23412,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 38994,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 43745,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 43989,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 51863,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 9445,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Krupin_772082c.mp3",
+    "path": "/upload/music/ib17_r1_Krupin_772082c.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9445,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Krupin",
+      "profile": { "location": "Киев", "name": "МишаnКрупин" }
+    },
+    "ratings": [
+      {
+        "id": 23239,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 33326,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 35345,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 52396,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 56769,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "хвг" },
+        "judge": { "id": 1993, "username": "Tovarish_Messi", "name": null }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 1005,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50, "name": "Lawanda 17 final.mp3" },
+    "name": "ib17_r1_ilovelwl_2881cae.mp3",
+    "path": "/upload/music/ib17_r1_ilovelwl_2881cae.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 1006,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Lawanda",
+      "profile": { "location": "Барнаул", "name": "Lawanda" }
+    },
+    "ratings": [
+      {
+        "id": 3836,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Чуть не дотянул до 5, очень хорошо."
+        },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 3837,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Давай не хуже чем в прошлом сезоне, пока старт отличный"
+        },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 26979,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 29923,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 30112,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 6894,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Johnyboy_cc4e4cb.mp3",
+    "path": "/upload/music/ib17_r1_Johnyboy_cc4e4cb.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 6894,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Johnyboy",
+      "profile": { "location": "Рига", "name": "Johnyboy" }
+    },
+    "ratings": [
+      {
+        "id": 23183,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 25065,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 28873,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      },
+      {
+        "id": 51750,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 56813,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 4593,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_AUX_529ccac.mp3",
+    "path": "/upload/music/ib17_r1_AUX_529ccac.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 4706,
+    "rating_sum": 11,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "AUX",
+      "profile": { "location": "Москва", "name": "AUX" }
+    },
+    "ratings": [
+      {
+        "id": 2108,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Убойный баттл рэп прям как по учебнику, колоритные панчи. "
+        },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 11714,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 18614,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 24917,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Угарный мини-дисс на артистов рипа. Хорош. "
+        },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 51316,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6839, "username": "ilyhahip-hop", "name": null }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 7416,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Oblaaco_dc6f3c2.mp3",
+    "path": "/upload/music/ib17_r1_Oblaaco_dc6f3c2.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 7416,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Oblaaco",
+      "profile": { "location": "Москва/Питер/Волгоград", "name": "Oblaaco" }
+    },
+    "ratings": [
+      {
+        "id": 23200,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 27025,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 29559,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 54274,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 55633,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 5625,
+    "bit_author": "TrueLife",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_Murovei_502e7a4.mp3",
+    "path": "/upload/music/ib17_r1_Murovei_502e7a4.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 5777,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Murovei",
+      "profile": { "location": "Minsk", "name": "Murovei" }
+    },
+    "ratings": [
+      {
+        "id": 11342,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 13634,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 21512,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 29425,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 31747,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      }
+    ],
+    "judge_rating_sum": 23
+  },
+  {
+    "id": 8962,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_228_ed57d70.mp3",
+    "path": "/upload/music/ib17_r1_228_ed57d70.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8962,
+    "rating_sum": 4,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "228",
+      "profile": { "location": "Белгород", "name": "228" }
+    },
+    "ratings": [
+      {
+        "id": 23116,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "Разгоняйся!" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 24458,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 28855,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      },
+      {
+        "id": 31716,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 32403,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Дядь, добавляй обороты, пожалуйста."
+        },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 14,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49, "name": "tips.mp3" },
+    "name": "ib17_r1_stariad_e4c9479.mp3",
+    "path": "/upload/music/ib17_r1_stariad_e4c9479.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 15,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "stariad",
+      "profile": { "location": "Лондон", "name": "STАRIAD" }
+    },
+    "ratings": [
+      {
+        "id": 23,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "Хороший трек." },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 24,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 25,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Стрим за 25.08 часть 2 комментарий здесь"
+        },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 26,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Душевно. По всем критериям хорошо, добавить нечего. "
+        },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 54622,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 3863,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_Chertok_10236fe.mp3",
+    "path": "/upload/music/ib17_r1_Chertok_10236fe.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 3928,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Chertok",
+      "profile": { "location": "Москва", "name": "Chertok" }
+    },
+    "ratings": [
+      {
+        "id": 7521,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 9360,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 11634,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "Молодец!" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 34715,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 56598,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 4633,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_goodwin_gk_75f9f3c.mp3",
+    "path": "/upload/music/ib17_r1_goodwin_gk_75f9f3c.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 4748,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "goodwin_gk",
+      "profile": { "location": "Владивосток ", "name": "ГудВин [ГК]" }
+    },
+    "ratings": [
+      {
+        "id": 11663,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 11886,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 3, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 11984,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "нормал, можешь лучше" },
+        "judge": { "id": 1993, "username": "Tovarish_Messi", "name": null }
+      },
+      {
+        "id": 27011,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 32180,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 2082,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_ZachitZo_e30f8ed.mp3",
+    "path": "/upload/music/ib17_r1_ZachitZo_e30f8ed.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 1906,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "ZachitZo",
+      "profile": { "location": "Алексин", "name": "ЗачитЗо" }
+    },
+    "ratings": [
+      {
+        "id": 5707,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "охуенно! жму руку. с утреца прослушал уже треков 50, твой - лучший. респектуля, удачи! жду во втором."
+        },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 5708,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 5709,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Оценено на стриме 27 августа.23:38"
+        },
+        "judge": {
+          "id": 2104,
+          "username": "TimeBusters",
+          "name": "Time Busters"
+        }
+      },
+      {
+        "id": 5710,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 6028,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "заебись заебись" },
+        "judge": { "id": 1993, "username": "Tovarish_Messi", "name": null }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 8999,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_otnose._69e31bb.mp3",
+    "path": "/upload/music/ib17_r1_otnose._69e31bb.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8999,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "otnose.",
+      "profile": { "location": "Москва", "name": "otnose." }
+    },
+    "ratings": [
+      {
+        "id": 23084,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 25075,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 31767,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 52353,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 56434,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Очень хорошо как по мне" },
+        "judge": {
+          "id": 2104,
+          "username": "TimeBusters",
+          "name": "Time Busters"
+        }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 3624,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_Neudacniy_den_odnoy_zebry_f4b0bad.mp3",
+    "path": "/upload/music/ib17_r1_Neudacniy_den_odnoy_zebry_f4b0bad.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 3665,
+    "rating_sum": 4,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Neudacniy_den_odnoy_zebry",
+      "profile": {
+        "location": "Архангельск",
+        "name": "Неудачный день одной зебры"
+      }
+    },
+    "ratings": [
+      {
+        "id": 1682,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "06.09 17:17" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 11456,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 28927,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      },
+      {
+        "id": 43406,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 3, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 53581,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 2862,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 47 },
+    "name": "ib17_r1_Grin-Grin_3a6d38c.mp3",
+    "path": "/upload/music/ib17_r1_Grin-Grin_3a6d38c.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2726,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Grin-Grin",
+      "profile": { "location": "Кемерово", "name": "Grin-Grin" }
+    },
+    "ratings": [
+      {
+        "id": 1186,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "07.09 23:53" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 15592,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 25010,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 3, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 30809,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 53409,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 8241,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Melli_ee7061c.mp3",
+    "path": "/upload/music/ib17_r1_Melli_ee7061c.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8241,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Melli",
+      "profile": { "location": "Омск", "name": "Melli" }
+    },
+    "ratings": [
+      {
+        "id": 25428,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 28920,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      },
+      {
+        "id": 43667,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "пару мест прям затащили этот трек. в целом же - искореняй маленькие квадратулечки, они не красят текст."
+        },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 44063,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 51994,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 2366,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 46 },
+    "name": "ib17_r1_Viceoff_4331891.mp3",
+    "path": "/upload/music/ib17_r1_Viceoff_4331891.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2202,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Viceoff",
+      "profile": { "location": "Самара", "name": "Вайсов" }
+    },
+    "ratings": [
+      {
+        "id": 423,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Оценено на стриме 27 августа.22:59"
+        },
+        "judge": {
+          "id": 2104,
+          "username": "TimeBusters",
+          "name": "Time Busters"
+        }
+      },
+      {
+        "id": 424,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Рэп о рэпе - скука, в остальном - стильно."
+        },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 425,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Оценка говорит сама за себя" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 426,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Вокал, читка, интонации - топовые, качественный саунд. Текст местами недоработан по содержанию и рифмам. Например, вначале весьма банальная рифма свернуть - путь звучит уместно и гармонично только потому, что она вписана в строки с интересным, сильным смыслом. А дальше столько школ, воу, прикол, бой и т. д., звучат будто просто для заполнения текста и все, на панчи такие строки не тянут, по смыслу тоже малозначительно. Текст нужен более плотный, напористый, продуманный и будет вышка. "
+        },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 25468,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 3914,
+    "bit_author": "Podjog beats",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_PODJOG_b4f4307.mp3",
+    "path": "/upload/music/ib17_r1_PODJOG_b4f4307.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 3986,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "PODJOG",
+      "profile": { "location": "Сергиев Посад", "name": "PODJOG[remclan]" }
+    },
+    "ratings": [
+      {
+        "id": 6561,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 9781,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 22373,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 32896,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 52040,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 3153,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_Palmdropov_695085f.mp3",
+    "path": "/upload/music/ib17_r1_Palmdropov_695085f.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 3049,
+    "rating_sum": 0,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Palmdropov",
+      "profile": { "location": "Владимир", "name": "Palmdropov " }
+    },
+    "ratings": [
+      {
+        "id": 1428,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Сделать двойной припев на 50 секундый отрезок это конечно сильно. По исполнению в куплете не дотянул слегка до 5, но слышно что перспективный, возможно даже когда-нибудь возьмешь Fresh Blood."
+        },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 1429,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Большинство твоих батлов - залупа. Но этот трек годный, добро пожаловать."
+        },
+        "judge": {
+          "id": 3053,
+          "username": "R1Fmabes",
+          "name": "r1fmabes[#2Типа]"
+        }
+      },
+      {
+        "id": 11429,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 14893,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 18471,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 2137,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 45 },
+    "name": "ib17_r1_levalynx_f3ff0b2.mp3",
+    "path": "/upload/music/ib17_r1_levalynx_f3ff0b2.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 1964,
+    "rating_sum": 0,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "levalynx",
+      "profile": { "location": "Белгород ", "name": "levalynx" }
+    },
+    "ratings": [
+      {
+        "id": 5805,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Оценка говорит сама за себя" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 7197,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 16530,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 3, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 35672,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 51722,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 2143,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 47 },
+    "name": "ib17_r1_JlB_055e079.mp3",
+    "path": "/upload/music/ib17_r1_JlB_055e079.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 1969,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "JlB",
+      "profile": { "location": "Рига", "name": "ЛВ" }
+    },
+    "ratings": [
+      {
+        "id": 5817,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Опыт не пропьешь" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 5818,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "07.09 16:23" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 5819,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 14146,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 17248,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 8033,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Piratvasyaparohod_c367e04.mp3",
+    "path": "/upload/music/ib17_r1_Piratvasyaparohod_c367e04.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8033,
+    "rating_sum": -1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Piratvasyaparohod",
+      "profile": { "location": "Тортуга", "name": "Пират Вася-Пароход" }
+    },
+    "ratings": [
+      {
+        "id": 23245,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 29681,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 34914,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 38792,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Тортуга кайф" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 51475,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 3, "comment": "4-" },
+        "judge": { "id": 6844, "username": "Pnd", "name": null }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 2664,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 47 },
+    "name": "ib17_r1_palach_b5a1da4.mp3",
+    "path": "/upload/music/ib17_r1_palach_b5a1da4.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2515,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "palach",
+      "profile": { "location": "Санкт-Петербург / Иркутск", "name": "palach" }
+    },
+    "ratings": [
+      {
+        "id": 960,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "Разгонишься еще." },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 12957,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 13272,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 19205,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 26973,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 5741,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_Canterville_47b3b53.mp3",
+    "path": "/upload/music/ib17_r1_Canterville_47b3b53.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 5893,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Canterville",
+      "profile": { "location": "Тула", "name": "Canterville" }
+    },
+    "ratings": [
+      {
+        "id": 11358,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 19006,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6841, "username": "MAD-A", "name": "MAD-A" }
+      },
+      {
+        "id": 20652,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 27635,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 28345,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 4470,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 48 },
+    "name": "ib17_r1_Gangsburg_2a0feee.mp3",
+    "path": "/upload/music/ib17_r1_Gangsburg_2a0feee.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 4582,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Gangsburg",
+      "profile": { "location": "Moscow", "name": "Gangsburg" }
+    },
+    "ratings": [
+      {
+        "id": 9792,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 11433,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 11968,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 21998,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 53279,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 3, "comment": "" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 3704,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_olegfaraday_006ab6e.mp3",
+    "path": "/upload/music/ib17_r1_olegfaraday_006ab6e.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 3754,
+    "rating_sum": 0,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "olegfaraday",
+      "profile": { "location": "Рязань", "name": "Oleg Faraday" }
+    },
+    "ratings": [
+      {
+        "id": 6457,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 15244,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 21098,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 37809,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 51308,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 9593,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_Tyomcha_8685910.mp3",
+    "path": "/upload/music/ib17_r1_Tyomcha_8685910.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9593,
+    "rating_sum": 6,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Tyomcha",
+      "profile": { "location": "Алматы", "name": "Tyomcha" }
+    },
+    "ratings": [
+      {
+        "id": 25467,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 25651,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 25863,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 26507,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 51660,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 2437,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_Rufus_5899aa6.mp3",
+    "path": "/upload/music/ib17_r1_Rufus_5899aa6.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2273,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Rufus",
+      "profile": { "location": "Владивосток ", "name": "Руфус " }
+    },
+    "ratings": [
+      {
+        "id": 582,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 583,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "комментарий на стриме от 31.08.2019 0:51"
+        },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 6334,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 11895,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 13735,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1993, "username": "Tovarish_Messi", "name": null }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 909,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49, "name": "NENU - В долгий путь.mp3" },
+    "name": "ib17_r1_andreynenu_004f4ff.mp3",
+    "path": "/upload/music/ib17_r1_andreynenu_004f4ff.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 910,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "andreynenu",
+      "profile": { "location": "Екатеринбург", "name": "nenu" }
+    },
+    "ratings": [
+      {
+        "id": 3627,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 3628,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Замечательная гармония текста и исполнения. "
+        },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 3629,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "06.09 17:14" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 13860,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 16911,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 936,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49, "name": "Лёша Gs - В долгий путь.mp3" },
+    "name": "ib17_r1_evgeniy.reshetov.96_0431081.mp3",
+    "path": "/upload/music/ib17_r1_evgeniy.reshetov.96_0431081.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 937,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "evgeniy.reshetov.96",
+      "profile": { "location": "Пенза", "name": "Лёша Gs" }
+    },
+    "ratings": [
+      {
+        "id": 3668,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 11689,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 13092,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 14140,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 27337,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "спасибо" },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 1216,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50, "name": "СамиRa - в долгий путь.mp3" },
+    "name": "ib17_r1_camika1122_acd08d6.mp3",
+    "path": "/upload/music/ib17_r1_camika1122_acd08d6.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 1217,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "camika1122",
+      "profile": { "location": "Днепр", "name": "СамиRa" }
+    },
+    "ratings": [
+      {
+        "id": 4289,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 4290,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Припев не понравился. Разнообразно по флоу и есть красивые рифмы, но хотелось так же текстового наполнения! Что-то между 3 и 4."
+        },
+        "judge": {
+          "id": 3053,
+          "username": "R1Fmabes",
+          "name": "r1fmabes[#2Типа]"
+        }
+      },
+      {
+        "id": 7283,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 41625,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6841, "username": "MAD-A", "name": "MAD-A" }
+      },
+      {
+        "id": 57099,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 9409,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_BLANK_d85f336.mp3",
+    "path": "/upload/music/ib17_r1_BLANK_d85f336.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9409,
+    "rating_sum": 7,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "BLANK",
+      "profile": { "location": "Ванкувер", "name": "BLANK aka Брукс БЛАНК" }
+    },
+    "ratings": [
+      {
+        "id": 23243,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 25219,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "рад камбэку! " },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 32284,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 38243,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 53250,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Немного разнообразия бы в плане исполнения. "
+        },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 194,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": {
+      "duration": 50,
+      "name": "Seven В долгий путь ( 1 раунд 17 независимый.mp3"
+    },
+    "name": "ib17_r1_vova.kolishenko_cff1883.mp3",
+    "path": "/upload/music/ib17_r1_vova.kolishenko_cff1883.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 195,
+    "rating_sum": 0,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "vova.kolishenko",
+      "profile": { "location": "Оренбург", "name": "Seven" }
+    },
+    "ratings": [
+      {
+        "id": 60,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "классно. знаешь, как делать - лови Топ Поинт"
+        },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 61,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Исполнил сочно, но пора уже пользоваться панчами из своей котомки. "
+        },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 62,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Застелил как угорелый, мощно, интенсивно, по тексту кое-где эти штамповые котомки. В целом - достойный баттл рэп. "
+        },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 12964,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 13687,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 3, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 9154,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_IDAN_820c84c.mp3",
+    "path": "/upload/music/ib17_r1_IDAN_820c84c.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9154,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "IDAN",
+      "profile": { "location": "RIX / LDN / LED", "name": "IDAN" }
+    },
+    "ratings": [
+      {
+        "id": 31205,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 32129,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      },
+      {
+        "id": 32395,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 52321,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 57015,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "zbs" },
+        "judge": { "id": 1993, "username": "Tovarish_Messi", "name": null }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 195,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 38, "name": "Калигула - В Долгий Путь.mp3" },
+    "name": "ib17_r1_Pushthetempo651_abf7022.mp3",
+    "path": "/upload/music/ib17_r1_Pushthetempo651_abf7022.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 196,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Pushthetempo651",
+      "profile": { "location": "Петропавловск-Камчатский", "name": "Калигула" }
+    },
+    "ratings": [
+      {
+        "id": 63,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 64,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Оценка говорит сама за себя" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 19135,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 21943,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 23408,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 7363,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Monmoti_1492bac.mp3",
+    "path": "/upload/music/ib17_r1_Monmoti_1492bac.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 7363,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Monmoti",
+      "profile": { "location": "Уральск", "name": null }
+    },
+    "ratings": [
+      {
+        "id": 23687,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 33815,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "Раскачал. " },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 33862,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Стильно!" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 34123,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 55149,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "4-" },
+        "judge": { "id": 6844, "username": "Pnd", "name": null }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 2244,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_soldat_d09d23f.mp3",
+    "path": "/upload/music/ib17_r1_soldat_d09d23f.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2074,
+    "rating_sum": 4,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "soldat",
+      "profile": { "location": "Брянск", "name": "soldat" }
+    },
+    "ratings": [
+      {
+        "id": 152,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Выбирал между 4 и 5. Но пока всё-таки ближе к 4."
+        },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 153,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Достойно. Пусть лирика, зато на стиле, без отстойных рифм и заезженных образов."
+        },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 154,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Оценка говорит сама за себя."
+        },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 12799,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1993, "username": "Tovarish_Messi", "name": null }
+      },
+      {
+        "id": 20030,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 8911,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Sarcasmo_8a70ac7.mp3",
+    "path": "/upload/music/ib17_r1_Sarcasmo_8a70ac7.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8911,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Sarcasmo",
+      "profile": { "location": "Moscow", "name": "Sarcasmo (Just Jazz)" }
+    },
+    "ratings": [
+      {
+        "id": 23196,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 23216,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "практически классика" },
+        "judge": { "id": 1993, "username": "Tovarish_Messi", "name": null }
+      },
+      {
+        "id": 23736,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 26174,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 3, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 53303,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 8410,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Canabiz_a30777a.mp3",
+    "path": "/upload/music/ib17_r1_Canabiz_a30777a.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8410,
+    "rating_sum": 3,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Canabiz",
+      "profile": { "location": "Ташкент", "name": "Canabiz" }
+    },
+    "ratings": [
+      {
+        "id": 27624,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 29303,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 42045,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 47452,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 53493,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 6364,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_egorkreed_1d88fb7.mp3",
+    "path": "/upload/music/ib17_r1_egorkreed_1d88fb7.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 6537,
+    "rating_sum": 7,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "egorkreed",
+      "profile": { "location": "г. Москва", "name": "Егор Крид" }
+    },
+    "ratings": [
+      {
+        "id": 7263,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 11544,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 12023,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 15140,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6833, "username": "BenArfa", "name": "Бен Арфа" }
+      },
+      {
+        "id": 19962,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 4574,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_mar4ell_3d41806.mp3",
+    "path": "/upload/music/ib17_r1_mar4ell_3d41806.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 4686,
+    "rating_sum": 0,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "mar4ell",
+      "profile": { "location": "Иерусалим", "name": "Марчелл" }
+    },
+    "ratings": [
+      {
+        "id": 6829,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 21475,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 41001,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2172, "username": "RapAnalyst", "name": "Rap Analyst" }
+      },
+      {
+        "id": 46483,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "На первых стримах я тебе перепутал с Ритмом, который Джей-Просвет.\n\nХотя хер его знает, может, Марсело Интервенция - это тоже самое, я не шарю как у вас ники менялись в 2007-2010.\n\nДобротно сдаёшь, хорошо пишешь, у тебя хорошее чувство бита и ритмики. Но конкретно данный реп у тебя явно не самый лучший. Но относительно моего леопольдовского судейства это планка 5.\n\nВ любом случае, спасибо за участие! Баттл такой масштабный благодаря каждому из вас. Возродим форум вместе!"
+        },
+        "judge": { "id": 1897, "username": "Multifrukt", "name": "Мультифрукт" }
+      },
+      {
+        "id": 51867,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 5356,
+    "bit_author": "Никита Мастяк",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 48 },
+    "name": "ib17_r1_Mastyak_077f93d.mp3",
+    "path": "/upload/music/ib17_r1_Mastyak_077f93d.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 5498,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Mastyak",
+      "profile": { "location": "Минск", "name": "Никита Мастяк" }
+    },
+    "ratings": [
+      {
+        "id": 9028,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 11613,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 35154,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "Авансом" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 37910,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 51665,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 4334,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_xxoc_39f419c.mp3",
+    "path": "/upload/music/ib17_r1_xxoc_39f419c.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 4444,
+    "rating_sum": 2,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "xxoc",
+      "profile": { "location": "Волгоград/Спб/Штормград", "name": "ххостанеда" }
+    },
+    "ratings": [
+      {
+        "id": 11531,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 22676,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 25573,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6834, "username": "garigudini", "name": "Гари Гудини" }
+      },
+      {
+        "id": 33395,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "Во сне вредно." },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 53473,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 8946,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_PLC_a94c98b.mp3",
+    "path": "/upload/music/ib17_r1_PLC_a94c98b.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8946,
+    "rating_sum": 5,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "PLC",
+      "profile": { "location": "Краснодар", "name": "PLC" }
+    },
+    "ratings": [
+      {
+        "id": 32885,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 39433,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 42384,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 51655,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 3, "comment": "" },
+        "judge": { "id": 6841, "username": "MAD-A", "name": "MAD-A" }
+      },
+      {
+        "id": 56750,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 9202,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_uznig_ch_49fe473.mp3",
+    "path": "/upload/music/ib17_r1_uznig_ch_49fe473.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 9202,
+    "rating_sum": 0,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "uznig_ch",
+      "profile": { "location": "Нск", "name": "узниг_Чь" }
+    },
+    "ratings": [
+      {
+        "id": 23163,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 28933,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      },
+      {
+        "id": 33655,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 43858,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 56454,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Для меня это очевидный проход"
+        },
+        "judge": {
+          "id": 2104,
+          "username": "TimeBusters",
+          "name": "Time Busters"
+        }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 7671,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_CHV_0a312fd.mp3",
+    "path": "/upload/music/ib17_r1_CHV_0a312fd.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 7671,
+    "rating_sum": 4,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "CHV",
+      "profile": { "location": "Мурманск", "name": "ЧВ" }
+    },
+    "ratings": [
+      {
+        "id": 23928,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1911, "username": "AutoChess", "name": "Очередной" }
+      },
+      {
+        "id": 24473,
+        "status": 1,
+        "grade": null,
+        "params_json": { "comment": "", "grade": "3" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 25488,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 5,
+          "comment": "Ну это определённо уникальный эмцэ со своим стилем. Хотел поставить 1 за Кожвинского, но потом моча перестала бить в голову и поставил наоборот. Делай интересно, делай необычно, ты можешь на дальней дистанции стать заложником своего же стиля, который, признаться, дико сексуален.\n\nВ любом случае, спасибо за участие! Баттл такой масштабный благодаря каждому из вас. Возродим форум вместе!"
+        },
+        "judge": { "id": 1897, "username": "Multifrukt", "name": "Мультифрукт" }
+      },
+      {
+        "id": 26969,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      },
+      {
+        "id": 33569,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      }
+    ],
+    "judge_rating_sum": 22
+  },
+  {
+    "id": 2564,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_upcyclemore_3810441.mp3",
+    "path": "/upload/music/ib17_r1_upcyclemore_3810441.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2407,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "upcyclemore",
+      "profile": { "location": "Москва", "name": "плагинсайд" }
+    },
+    "ratings": [
+      {
+        "id": 11310,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 12820,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1849,
+          "username": "Denya_Stish",
+          "name": "Denya Stish"
+        }
+      },
+      {
+        "id": 33221,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 44657,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Хорошо. Помню ты скидывал одному из судей свой текст. Не стал вчитываться. Решил понять раскрытие во время самого судейства. Но я тупой, видимо, и не уловил раскрытия как такового. Считаю, что слушателю должно быть понятно все. Если ты для себя в первую очередь делаешь, то ок. А в первом рвунде заворачивать раскрытие в пять слоев при 8 тысячах сдавших не умно и не целесообразно. Вот со следующих раундов хоть в десять слоев раскрытие заворачивай. Там уже судьи с лупами сидят. "
+        },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 52089,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6842, "username": "bovee", "name": "БоВи" }
+      }
+    ],
+    "judge_rating_sum": 21
+  },
+  {
+    "id": 8454,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": null,
+    "name": "ib17_r1_Lefortovskiy_61d098f.mp3",
+    "path": "/upload/music/ib17_r1_Lefortovskiy_61d098f.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 8454,
+    "rating_sum": 0,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Lefortovskiy",
+      "profile": { "location": "Москва", "name": "Максим Лефортовский" }
+    },
+    "ratings": [
+      {
+        "id": 28130,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 6832, "username": "Vla-da", "name": "Вла-Да" }
+      },
+      {
+        "id": 28382,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 2226, "username": "Paradise", "name": null }
+      },
+      {
+        "id": 35689,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2003, "username": "VERS2", "name": "VERS2" }
+      },
+      {
+        "id": 53511,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 56128,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 21
+  },
+  {
+    "id": 2323,
+    "bit_author": "",
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 50 },
+    "name": "ib17_r1_Fake_bab5813.mp3",
+    "path": "/upload/music/ib17_r1_Fake_bab5813.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 2151,
+    "rating_sum": 6,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "Fake",
+      "profile": { "location": "Almaty", "name": "Asylllum" }
+    },
+    "ratings": [
+      {
+        "id": 331,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "стрим от 29.08.19 22:00" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 332,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 3, "comment": "Хорошо натараторил. " },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 8265,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 41659,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 6837, "username": "Aspid", "name": "Aspid" }
+      },
+      {
+        "id": 55435,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": {
+          "id": 1888,
+          "username": "afictionalperson",
+          "name": "Выдуманный"
+        }
+      }
+    ],
+    "judge_rating_sum": 21
+  },
+  {
+    "id": 2076,
+    "bit_author": null,
+    "desc": null,
+    "img": null,
+    "meta1": { "duration": 49 },
+    "name": "ib17_r1_MaximL_6fa9b85.mp3",
+    "path": "/upload/music/ib17_r1_MaximL_6fa9b85.mp3",
+    "round_id": 1,
+    "status": 1,
+    "user_id": 1900,
+    "rating_sum": 1,
+    "userRating": null,
+    "table_id": 1,
+    "pair": null,
+    "sort": 0,
+    "user": {
+      "username": "MaximL",
+      "profile": { "location": "Москва", "name": "Максим Эл" }
+    },
+    "ratings": [
+      {
+        "id": 5692,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 1844, "username": "Light_M", "name": "Light_M" }
+      },
+      {
+        "id": 5693,
+        "status": 1,
+        "grade": null,
+        "params_json": {
+          "grade": 4,
+          "comment": "Подача у тебя чуть хромает. Но совсем чуть чуть. Либо это неудачный отрывок в самом начале. А в целом очень уровнево и стилево. "
+        },
+        "judge": { "id": 1861, "username": "Pashkevich", "name": "Пашкевич" }
+      },
+      {
+        "id": 5694,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 5, "comment": "" },
+        "judge": { "id": 1989, "username": "MOZG", "name": null }
+      },
+      {
+        "id": 13620,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": {
+          "id": 1819,
+          "username": "SANCHEZ",
+          "name": "Александр Петров"
+        }
+      },
+      {
+        "id": 27319,
+        "status": 1,
+        "grade": null,
+        "params_json": { "grade": 4, "comment": "" },
+        "judge": { "id": 2019, "username": "Miou", "name": "Miou " }
+      }
+    ],
+    "judge_rating_sum": 21
+  }
+]
