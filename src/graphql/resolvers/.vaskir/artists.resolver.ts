@@ -11,9 +11,9 @@ import { map } from "ramda";
 
 import Artist from "@app/graphql/types/artist.type";
 import Track from "@app/graphql/types/track.type";
-import artistsController from "@app/controllers/artist.controller";
-import { ITrack } from "@app/models/track.model";
-import trackController from "@app/controllers/track.controller";
+import artistsController from "@app/controllers/.vaskir/artist.controller";
+import { ITrackModel } from "@app/models/.vaskir/track.model";
+import trackController from "@app/controllers/.vaskir/track.controller";
 
 @InputType()
 class ArtistsInputType {
@@ -36,7 +36,10 @@ class ArtistResolver {
       item => ({
         id: `${item!._id}`,
         name: item!.name || item!.username,
-        tracksIDs: map((track: ITrack) => track._id.toString(), item!.tracks)
+        tracksIDs: [] /*map(
+          (track: ITrackModel) => track._id.toString(),
+          item!.tracks
+        )*/
       }),
       items
     );
@@ -49,18 +52,21 @@ class ArtistResolver {
       return null;
     }
 
-    return {
+    return null; /*{
       id: result._id.toString(),
       name: result.name || result.username,
-      tracksIDs: map((track: ITrack) => track._id.toString(), result.tracks)
-    };
+      tracksIDs: map(
+        (track: ITrackModel) => track._id.toString(),
+        result.tracks
+      )
+    };*/
   }
 
   @FieldResolver(type => [Track])
   async tracks(@Root() artist: Artist): Promise<Track[]> {
     const items = await trackController.getTracks(artist.tracksIDs);
     return map(
-      (item: ITrack) => ({
+      (item: ITrackModel) => ({
         id: item._id.toString(),
         path: item.path,
         round: item.round,

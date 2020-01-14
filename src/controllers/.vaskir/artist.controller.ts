@@ -2,11 +2,11 @@ import mongoose, { mongo } from "mongoose";
 import DataLoader from "dataloader";
 import { map, find, filter } from "ramda";
 
-import { Artist, IArtist } from "@app/models/artist.model";
+import { ArtistModel, IArtistModel } from "@app/models/.vaskir/artist.model";
 
 const ArtistLoader = new DataLoader(
-  async (ids: readonly string[]): Promise<(IArtist | null)[]> => {
-    const artists = await Artist.find({ _id: { $in: ids } });
+  async (ids: readonly string[]): Promise<(IArtistModel | null)[]> => {
+    const artists = await ArtistModel.find({ _id: { $in: ids } });
 
     const result = map(
       id => find(artist => artist._id.equals(id), artists) || null,
@@ -24,8 +24,8 @@ interface IAllArtistsInput {
 }
 const allArtists = async (
   input: IAllArtistsInput
-): Promise<(IArtist | null)[]> => {
-  const artists: IArtist[] = await Artist.aggregate([
+): Promise<(IArtistModel | null)[]> => {
+  const artists: IArtistModel[] = await ArtistModel.aggregate([
     {
       $match: {
         $or: [
@@ -54,7 +54,10 @@ const allArtists = async (
     { $limit: input.limit }
   ]);
 
-  const artistsIds = map((artist: IArtist) => artist._id.toString(), artists);
+  const artistsIds = map(
+    (artist: IArtistModel) => artist._id.toString(),
+    artists
+  );
   const rawData = await ArtistLoader.loadMany(artistsIds);
 
   return filter(
@@ -64,7 +67,7 @@ const allArtists = async (
   );
 };
 
-const artistById = async (id: string): Promise<IArtist | null> => {
+const artistById = async (id: string): Promise<IArtistModel | null> => {
   if (!mongoose.Types.ObjectId.isValid(id)) {
     return null;
   }
@@ -75,7 +78,7 @@ const artistById = async (id: string): Promise<IArtist | null> => {
 };
 
 const countOfArtists = async (searchCriteria: string | null): Promise<number> =>
-  await Artist.countDocuments({
+  await ArtistModel.countDocuments({
     $or: [
       { name: { $regex: new RegExp(searchCriteria || "", "ig") } },
       { username: { $regex: new RegExp(searchCriteria || "", "ig") } }

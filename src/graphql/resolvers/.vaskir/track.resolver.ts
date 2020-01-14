@@ -3,8 +3,8 @@ import { map } from "ramda";
 
 import Track from "@app/graphql/types/track.type";
 import Artist from "@app/graphql/types/artist.type";
-import artistController from "@app/controllers/artist.controller";
-import { ITrack } from "@app/models/track.model";
+import artistController from "@app/controllers/.vaskir/artist.controller";
+import { ITrackModel } from "@app/models/.vaskir/track.model";
 
 @Resolver(of => Track)
 class TrackResolver {
@@ -14,7 +14,7 @@ class TrackResolver {
     return {
       id: result!._id.toString(),
       name: result!.name || result!.username,
-      tracksIDs: map((track: ITrack) => track._id.toString(), result!.tracks)
+      tracksIDs: [] //map((track: ITrackModel) => track._id.toString(), result!.tracks)
     };
   }
 }

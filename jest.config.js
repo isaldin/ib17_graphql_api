@@ -6,7 +6,7 @@ module.exports = {
     "^.+\\.(ts|tsx)$": "ts-jest"
   },
 
-  rootDir: "./src",
+  rootDir: ".",
   moduleNameMapper: {
     "^@app/(.*)$": "<rootDir>/src/$1"
   }
