@@ -32,11 +32,12 @@ class ArtistResolver {
   @Query(returns => [Artist])
   async artists(@Arg("input") input: ArtistsInputType): Promise<Artist[]> {
     const items = await artistsController.allArtists(input);
-    return map(
+    return [];
+    map(
       item => ({
         id: `${item!._id}`,
         name: item!.name || item!.username,
-        tracksIDs: [] /*map(
+        trackIDs: [] /*map(
           (track: ITrackModel) => track._id.toString(),
           item!.tracks
         )*/
@@ -64,7 +65,7 @@ class ArtistResolver {
 
   @FieldResolver(type => [Track])
   async tracks(@Root() artist: Artist): Promise<Track[]> {
-    const items = await trackController.getTracks(artist.tracksIDs);
+    const items: ITrackModel[] = []; //await trackController.getTracks(artist.trackIDs);
     return map(
       (item: ITrackModel) => ({
         id: item._id.toString(),

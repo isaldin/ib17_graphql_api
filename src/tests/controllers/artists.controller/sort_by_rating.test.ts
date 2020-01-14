@@ -1,10 +1,11 @@
 import { map, prop } from "ramda";
 
+import { ArtistModel, IArtistModel } from "@app/models/artist.model";
+import { artistsController } from "@app/controllers";
+
 import DBHelper from "@app/tests/__helpers/db";
 import artistsSeeder from "@app/tests/__seeders/artists.seeder";
-import { ArtistModel, IArtistModel } from "@app/models/artist.model";
-import { TrackModel } from "@app/models/track.model";
-import { artistsController } from "@app/controllers";
+import addTracksToArtist from "@app/tests/__helpers/addTracksToArtist";
 
 describe("artists.controller", () => {
   let dbHelper: DBHelper;
@@ -20,34 +21,6 @@ describe("artists.controller", () => {
 
   const _seedTracksForTestSortingByRating = async () => {
     await artistsSeeder.seed();
-
-    const addTracksToArtist = async (
-      tracks: {
-        round: number;
-        judgesRating: number;
-        popularRating: number;
-        status: number;
-      }[],
-      artistName: string
-    ) => {
-      const createTracksPromises = map(async trackObj => {
-        const artist = await ArtistModel.findOne({ name: artistName });
-        const track = await new TrackModel({
-          artist,
-          trackId: Math.floor(Math.random() * 100000),
-          path: "",
-          round: trackObj.round,
-          table: "yin",
-          popular_rating: trackObj.popularRating,
-          judges_rating: trackObj.judgesRating,
-          judges_ratings: [],
-          status: trackObj.status
-        }).save();
-        artist!.tracks.push(track);
-        await artist!.save();
-      }, tracks);
-      await Promise.all(createTracksPromises);
-    };
 
     // statuses: 1 - pass, 2 - fall, 3 - pass
     // artist: [round: status/judges_rating/popular_rating]

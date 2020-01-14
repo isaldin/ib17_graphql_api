@@ -7,7 +7,7 @@ import { buildSchema } from "type-graphql";
 import fastifyCompress from "fastify-compress";
 
 import { FastifyInstanceType } from "@app/types";
-// import ArtistResolver from "@app/graphql/resolvers/artists.resolver";
+import { ArtistsResolver } from "@app/graphql/resolvers";
 // import TrackResolver from "@app/graphql/resolvers/track.resolver";
 
 dotenv.config();
@@ -17,14 +17,16 @@ const uri = process.env.MONGO_URI || "";
 
 const buildServer = async (): Promise<FastifyInstanceType> => {
   const app: FastifyInstanceType = fastify();
-  // const schema = await buildSchema({});
+  const schema = await buildSchema({
+    resolvers: [ArtistsResolver]
+  });
 
   app.register(fastifyCompress);
 
-  // app.register(fastifyGQL, {
-  //   schema,
-  //   graphiql: !process.env.PRODUCTION
-  // });
+  app.register(fastifyGQL, {
+    schema,
+    graphiql: !process.env.PRODUCTION
+  });
 
   return app;
 };

@@ -1,18 +1,35 @@
 import { ObjectType, Field, ID } from "type-graphql";
+import { Types } from "mongoose";
 
-@ObjectType()
-class Artist {
+import { TrackGQLType } from "@app/graphql/types";
+
+@ObjectType("Artist")
+class ArtistGQLType {
   @Field(type => ID)
   id: string;
 
-  @Field()
-  name: string;
+  @Field(type => String, { nullable: true })
+  name: string | null;
 
-  @Field(type => [ID])
-  tracksIDs: string[];
+  @Field(type => String)
+  username: string;
+
+  @Field(type => String, { nullable: true })
+  location: string | null;
+
+  @Field()
+  overallJudgesRating: number;
+
+  @Field()
+  overallPopularRating: number;
+
+  // @Field(type => [TrackGQLType])
+  // tracks: TrackGQLType[];
+
+  trackIDs: Types.ObjectId[];
 }
 
-export default Artist;
+export default ArtistGQLType;
 
 // import {
 //   GraphQLInt,

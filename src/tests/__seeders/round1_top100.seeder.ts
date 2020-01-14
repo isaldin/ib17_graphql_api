@@ -65,7 +65,7 @@ const seed = async (): Promise<void> => {
       await track.save();
 
       artist.tracks.push(track);
-      artist.overall_rating = artist.overall_rating + track.judges_rating;
+      // artist.overall_rating = artist.overall_rating + track.judges_rating;
       await artist.save();
     }
   }, parsedJson);

@@ -67,6 +67,18 @@ const getAllArtists = async (
       }
     },
     {
+      $project: {
+        _id: 1,
+        artistId: 1,
+        username: 1,
+        name: 1,
+        location: 1,
+        tracks: 1,
+        overallJudgesRating: "$overall_judges_rating",
+        overallPopularRating: "$overall_popular_rating"
+      }
+    },
+    {
       $skip: input.offset || DEFAULT_OFFSET
     },
     {
