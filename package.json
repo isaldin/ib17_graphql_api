@@ -4,7 +4,8 @@
   "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node -r tsconfig-paths/register ./src/index.ts"
+    "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node -r tsconfig-paths/register ./src/index.ts",
+    "test": "jest"
   },
   "dependencies": {
     "dataloader": "2.0.0",
@@ -20,9 +21,15 @@
   },
   "devDependencies": {
     "@types/dotenv": "8.2.0",
+    "@types/jest": "24.0.25",
     "@types/mongoose": "5.5.35",
     "@types/ramda": "0.26.39",
+    "@types/supertest": "2.0.8",
+    "jest": "24.9.0",
+    "mongodb-memory-server": "6.2.1",
     "nodemon": "2.0.2",
+    "supertest": "4.0.2",
+    "ts-jest": "24.3.0",
     "ts-node": "8.5.4",
     "tsconfig-paths": "3.9.0",
     "tslint": "5.20.1",
