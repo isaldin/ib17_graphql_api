@@ -2,6 +2,12 @@ import { IArtistModel, ArtistModel } from "@app/models/artist.model";
 
 const DEFAULT_LIMIT = 10;
 const DEFAULT_OFFSET = 0;
+const DEFAULT_SORTING = {
+  rounds: -1,
+  wins_of_rounds: -1,
+  overall_judges_rating: -1,
+  overall_popular_rating: -1
+};
 
 // default sort by rating (see tests)
 // sorting priority:
@@ -59,12 +65,7 @@ const getAllArtists = async (
       }
     },
     {
-      $sort: {
-        rounds: -1,
-        wins_of_rounds: -1,
-        overall_judges_rating: -1,
-        overall_popular_rating: -1
-      }
+      $sort: DEFAULT_SORTING
     },
     {
       $project: {
@@ -88,6 +89,4 @@ const getAllArtists = async (
   return artists;
 };
 
-export default {
-  getAllArtists
-};
+export default getAllArtists;

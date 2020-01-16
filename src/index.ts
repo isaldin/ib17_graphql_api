@@ -1,32 +1,31 @@
-import "reflect-metadata";
-import dotenv from "dotenv";
-import fastify from "fastify";
-import fastifyGQL from "fastify-gql";
-import mongoose from "mongoose";
-import { buildSchema } from "type-graphql";
-import fastifyCompress from "fastify-compress";
+import 'reflect-metadata';
+import dotenv from 'dotenv';
+import fastify from 'fastify';
+import fastifyGQL from 'fastify-gql';
+import mongoose from 'mongoose';
+import { buildSchema } from 'type-graphql';
+import fastifyCompress from 'fastify-compress';
 
-import { FastifyInstanceType } from "@app/types";
-import { ArtistsResolver } from "@app/graphql/resolvers";
-import { initRatedArtistsView } from "@app/db/initRatedArtistsView";
+import { FastifyInstanceType } from '@app/types';
+import { initRatedArtistsView } from '@app/db/initRatedArtistsView';
 
 dotenv.config();
 
-const port = parseInt(process.env.PORT || "3000", 10);
-const uri = process.env.MONGO_URI || "";
+const port = parseInt(process.env.PORT || '3000', 10);
+const uri = process.env.MONGO_URI || '';
 
 const buildServer = async (): Promise<FastifyInstanceType> => {
   const app: FastifyInstanceType = fastify();
-  const schema = await buildSchema({
-    resolvers: [ArtistsResolver]
-  });
-
   app.register(fastifyCompress);
+
+  /* const schema = await buildSchema({
+    resolvers: [],
+  });
 
   app.register(fastifyGQL, {
     schema,
-    graphiql: !process.env.PRODUCTION
-  });
+    graphiql: !process.env.PRODUCTION,
+  });*/
 
   return app;
 };
@@ -37,16 +36,16 @@ const start = async () => {
       useCreateIndex: true,
       useFindAndModify: false,
       useNewUrlParser: true,
-      useUnifiedTopology: true
+      useUnifiedTopology: true,
     });
-    mongoose.set("debug", !process.env.PRODUCTION);
+    mongoose.set('debug', !process.env.PRODUCTION);
 
     await initRatedArtistsView(mongoose.connection);
 
     const server = await buildServer();
-    await server.listen(port, "0.0.0.0");
+    await server.listen(port, '0.0.0.0');
     // tslint:disable-next-line: no-console
-    console.log("Server running on port %d", port);
+    console.log('Server running on port %d', port);
   } catch (error) {
     console.error(error);
     process.exit(1);
