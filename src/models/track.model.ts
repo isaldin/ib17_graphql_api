@@ -37,4 +37,4 @@ const TrackSchema = new Schema({
 
 const TrackModel: Model<ITrackModel> = model<ITrackModel>("Track", TrackSchema);
 
-export { TrackModel, ITrackModel };
+export { TrackModel, ITrackModel, TrackSchema };

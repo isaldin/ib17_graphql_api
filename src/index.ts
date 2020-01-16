@@ -8,7 +8,7 @@ import fastifyCompress from "fastify-compress";
 
 import { FastifyInstanceType } from "@app/types";
 import { ArtistsResolver } from "@app/graphql/resolvers";
-// import TrackResolver from "@app/graphql/resolvers/track.resolver";
+import { initRatedArtistsView } from "@app/db/initRatedArtistsView";
 
 dotenv.config();
 
@@ -40,6 +40,8 @@ const start = async () => {
       useUnifiedTopology: true
     });
     mongoose.set("debug", !process.env.PRODUCTION);
+
+    await initRatedArtistsView(mongoose.connection);
 
     const server = await buildServer();
     await server.listen(port, "0.0.0.0");

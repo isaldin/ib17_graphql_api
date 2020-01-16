@@ -1,14 +1,15 @@
-import { ArtistModel } from "@app/models/artist.model";
-import { map, toPairs } from "ramda";
+import { ArtistModel } from '@app/models/artist.model';
+import { map, toPairs } from 'ramda';
 
 const seeder = {
   seed: async (): Promise<void> => {
     const artists: [number, string][] = [
-      [5, "noize"],
-      [4, "stim"],
-      [2, "oxxxy"],
-      [1, "zagi"],
-      [3, "lu4nik"]
+      [5, 'noize'],
+      [4, 'stim'],
+      [2, 'oxxxy'],
+      [3, 'lu4nik'],
+      [1, 'zagi'],
+      [6, '228'],
       // [6, "baban"],
       // [7, "dj"],
       // [8, "228"],
@@ -22,12 +23,12 @@ const seeder = {
           artistId: item[0],
           username: item[1],
           name: item[1],
-          location: null
+          location: null,
         }),
-        artists
-      )
+        artists,
+      ),
     );
-  }
+  },
 };
 
 export default seeder;

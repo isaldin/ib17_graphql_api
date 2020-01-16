@@ -1,16 +1,13 @@
 /* eslint-disable @typescript-eslint/camelcase */
-import path from "path";
-import glob from "glob";
-import util from "util";
-import { reduce, concat, where, is, map, anyPass, allPass, isNil } from "ramda";
-import fs from "fs";
+import path from 'path';
+import { where, is, map, anyPass, allPass, isNil } from 'ramda';
+import fs from 'fs';
 
-import { ArtistModel, IArtistModel } from "@app/models/artist.model";
-import { TrackModel, ITrackModel } from "@app/models/track.model";
+import { ArtistModel } from '@app/models/artist.model';
+import { TrackModel } from '@app/models/track.model';
 
-const globPromise = util.promisify(glob);
-
-const FIXTURE_PATH = path.join(__dirname, "../__fixtures/round1/top100.json");
+// DO NOT CHANGE THIS PATH IN CAUSE THIS FILE IS USING DIRECTLY IN OTHERS TESTS
+const FIXTURE_PATH = path.join(__dirname, '../__fixtures/round1/top100.json');
 
 const isValidArtistObject = where({
   user_id: is(Number),
@@ -18,9 +15,9 @@ const isValidArtistObject = where({
     username: is(String),
     profile: where({
       location: anyPass([isNil, is(String)]),
-      name: anyPass([isNil, is(String)])
-    })
-  })
+      name: anyPass([isNil, is(String)]),
+    }),
+  }),
 });
 
 const isValidTrackObject = where({
@@ -28,7 +25,7 @@ const isValidTrackObject = where({
   rating_sum: is(Number),
   status: is(Number),
   id: is(Number),
-  path: is(String)
+  path: is(String),
 });
 
 const isValidObject = allPass([isValidArtistObject, isValidTrackObject]);
@@ -48,7 +45,7 @@ const seed = async (): Promise<void> => {
         name: item.user.profile.name,
         location: item.user.profile.location,
         tracks: [],
-        overall_rating: 0
+        overall_rating: 0,
       });
 
       const track = new TrackModel({
@@ -56,16 +53,15 @@ const seed = async (): Promise<void> => {
         artist,
         path: item.path,
         round: item.round_id,
-        table: "qualifying",
+        table: 'qualifying',
         popular_rating: item.rating_sum,
         judges_rating: item.judge_rating_sum,
         judges_ratings: [],
-        status: item.status
+        status: item.status,
       });
       await track.save();
 
-      artist.tracks.push(track);
-      // artist.overall_rating = artist.overall_rating + track.judges_rating;
+      artist.tracks.push(track._id);
       await artist.save();
     }
   }, parsedJson);

@@ -1,9 +1,10 @@
 // tslint:disable-next-line: no-implicit-dependencies
 import { MongoMemoryServer } from "mongodb-memory-server";
-import mongoose from "mongoose";
+import mongoose, { Connection } from "mongoose";
 
 export default class DBHelper {
   private mongoServer: MongoMemoryServer;
+  private mongooseConnection: Connection;
 
   constructor() {
     this.mongoServer = new MongoMemoryServer();
@@ -16,6 +17,11 @@ export default class DBHelper {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
+    this.mongooseConnection = mongoose.connection;
+  }
+
+  public get connection(): Connection {
+    return this.mongooseConnection;
   }
 
   public async stop() {
