@@ -1,6 +1,6 @@
 import { RatedArtistModel, IRatedArtistModel } from '@app/models/ratedArtist.model';
 
-type SortTypes =
+export type SortTypes =
   | 'judges_rating_desc'
   | 'judges_rating_asc'
   | 'popular_rating_desc'

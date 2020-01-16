@@ -8,6 +8,7 @@ import fastifyCompress from 'fastify-compress';
 
 import { FastifyInstanceType } from '@app/types';
 import { initRatedArtistsView } from '@app/db/initRatedArtistsView';
+import { topRatedArtistsResolver } from '@app/graphql/resolvers';
 
 dotenv.config();
 
@@ -18,14 +19,14 @@ const buildServer = async (): Promise<FastifyInstanceType> => {
   const app: FastifyInstanceType = fastify();
   app.register(fastifyCompress);
 
-  /* const schema = await buildSchema({
-    resolvers: [],
+  const schema = await buildSchema({
+    resolvers: [topRatedArtistsResolver],
   });
 
   app.register(fastifyGQL, {
     schema,
     graphiql: !process.env.PRODUCTION,
-  });*/
+  });
 
   return app;
 };

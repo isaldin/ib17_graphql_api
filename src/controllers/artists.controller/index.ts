@@ -1,4 +1,3 @@
-import getAllArtists from "./getAllArtists";
-import getArtistListPaginated from "./getArtistListPaginated";
+import getAllArtists from './getAllArtists';
 
-export default { getAllArtists, getArtistListPaginated };
+export default { getAllArtists };

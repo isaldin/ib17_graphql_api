@@ -1,18 +1,15 @@
-import { ObjectType, Field, ID } from "type-graphql";
-import { Types } from "mongoose";
+import { ObjectType, Field, ID, FieldResolver } from 'type-graphql';
+import { Types } from 'mongoose';
 
-import { TrackGQLType } from "@app/graphql/types";
+import { TrackGQLType } from '@app/graphql/types';
 
-@ObjectType("Artist")
+@ObjectType('Artist')
 class ArtistGQLType {
   @Field(type => ID)
   id: string;
 
-  @Field(type => String, { nullable: true })
-  name: string | null;
-
   @Field(type => String)
-  username: string;
+  name: string | null;
 
   @Field(type => String, { nullable: true })
   location: string | null;
@@ -22,9 +19,6 @@ class ArtistGQLType {
 
   @Field()
   overallPopularRating: number;
-
-  // @Field(type => [TrackGQLType])
-  // tracks: TrackGQLType[];
 
   trackIDs: Types.ObjectId[];
 }
