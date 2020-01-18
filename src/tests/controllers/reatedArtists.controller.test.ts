@@ -1,4 +1,4 @@
-import { getRatedArtists } from '@app/controllers/ratedArtists.controller';
+import topRatedArtistsController from '@app/controllers/ratedArtists.controller';
 
 import DBHelper from '@app/tests/__helpers/db';
 import r1top100Seeder from '@app/tests/__seeders/round1_top100.seeder';
@@ -23,12 +23,12 @@ describe('ratedArtists.controller', () => {
 
   describe('getRatedArtists function', () => {
     it('should exist', () => {
-      expect(getRatedArtists).toBeDefined();
-      expect(typeof getRatedArtists).toEqual('function');
+      expect(topRatedArtistsController.getRatedArtists).toBeDefined();
+      expect(typeof topRatedArtistsController.getRatedArtists).toEqual('function');
     });
 
     it('should by default sort by overall judges rating by desc and return first 25 items )', async () => {
-      const result = await getRatedArtists();
+      const result = await topRatedArtistsController.getRatedArtists();
 
       const resultArtistIds = map(prop('artistId'), result);
       const top25Json = map(prop('user_id'), take(25, r1Top100SortedByOverallJudgesRatingDesc));
@@ -37,7 +37,10 @@ describe('ratedArtists.controller', () => {
     });
 
     it('should sort by overall judges rating by asc', async () => {
-      const result_asc = await getRatedArtists({ limit: 12, sort: 'judges_rating_asc' });
+      const result_asc = await topRatedArtistsController.getRatedArtists({
+        limit: 12,
+        sort: 'judges_rating_asc',
+      });
       const resultArtistIds_asc = map(prop('artistId'), result_asc);
       const expectation_asc = map(
         prop('user_id'),
@@ -47,7 +50,7 @@ describe('ratedArtists.controller', () => {
     });
 
     it('should return by limit', async () => {
-      const result = await getRatedArtists({ limit: 12 });
+      const result = await topRatedArtistsController.getRatedArtists({ limit: 12 });
       const resultArtistIds = map(prop('artistId'), result);
       const top12Json = map(prop('user_id'), take(12, r1Top100SortedByOverallJudgesRatingDesc));
 
@@ -55,7 +58,10 @@ describe('ratedArtists.controller', () => {
     });
 
     it('should sort by popular_rating', async () => {
-      const result_desc = await getRatedArtists({ limit: 12, sort: 'popular_rating_desc' });
+      const result_desc = await topRatedArtistsController.getRatedArtists({
+        limit: 12,
+        sort: 'popular_rating_desc',
+      });
       const resultArtistIds_desc = map(prop('artistId'), result_desc);
       const expectation_desc = map(
         prop('user_id'),
@@ -63,7 +69,10 @@ describe('ratedArtists.controller', () => {
       );
       expect(resultArtistIds_desc).toStrictEqual(expectation_desc);
 
-      const result_asc = await getRatedArtists({ limit: 12, sort: 'popular_rating_asc' });
+      const result_asc = await topRatedArtistsController.getRatedArtists({
+        limit: 12,
+        sort: 'popular_rating_asc',
+      });
       const resultArtistIds_asc = map(prop('artistId'), result_asc);
       const expectation_asc = map(
         prop('user_id'),

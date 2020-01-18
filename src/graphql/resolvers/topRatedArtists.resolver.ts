@@ -36,7 +36,7 @@ class TopRatedArtistsResolver {
     return map(
       track => ({
         id: Base64.encode(`Track:${track.trackId}`),
-        path: track.path || '',
+        path: track.path ? `https://ib17.hip-hop.ru${track.path}` : '',
         round: track.round,
         artistID: track.artist.toString(),
       }),

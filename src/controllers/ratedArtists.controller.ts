@@ -26,7 +26,7 @@ const getRatedArtists = async (input?: IGetRatedArtistsInput): Promise<IRatedArt
     .limit(params.limit);
 };
 
-export { getRatedArtists };
+export default { getRatedArtists };
 
 //
 
