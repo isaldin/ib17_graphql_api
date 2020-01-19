@@ -1,6 +1,6 @@
-import { ObjectType, Field, ID } from "type-graphql";
+import { ObjectType, Field, ID } from 'type-graphql';
 
-@ObjectType()
+@ObjectType('Track')
 class TrackGQLType {
   @Field(type => ID)
   id: string;
@@ -11,7 +11,6 @@ class TrackGQLType {
   @Field()
   round: number;
 
-  @Field(type => ID)
   artistID: string;
 }
 

@@ -18,7 +18,7 @@ interface ITrackModel extends Document {
 }
 
 const TrackSchema = new Schema({
-  trackId: { type: Number, unique: true, required: true },
+  trackId: { type: Number, unique: true, required: true, index: true },
   artist: {
     ref: 'Artist',
     required: true,
@@ -26,13 +26,13 @@ const TrackSchema = new Schema({
   },
   pair: { type: Schema.Types.ObjectId, ref: 'Artist' },
   path: String,
-  popular_rating: Number,
-  judges_rating: Number,
+  popular_rating: { type: Number, index: true },
+  judges_rating: { type: Number, index: true },
   judges_ratings: [],
   round: { type: Number, required: true },
   table: { type: String, enum: ['qualifying', 'yin', 'yang'], required: true },
   lifebuoy: Boolean,
-  status: Number,
+  status: { type: Number, index: true },
 });
 
 const TrackModel: Model<ITrackModel> = model<ITrackModel>('Track', TrackSchema);

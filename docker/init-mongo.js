@@ -1,10 +1,14 @@
 db.createUser({
-  user: "rootuser",
-  pwd: "supersecurepassword",
+  user: 'rootuser',
+  pwd: 'supersecurepassword',
   roles: [
     {
-      role: "readWrite",
-      db: "usersdb"
-    }
-  ]
+      role: 'readWrite',
+      db: 'usersdb',
+    },
+    {
+      role: 'dbOwner',
+      db: 'usersdb',
+    },
+  ],
 });

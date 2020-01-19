@@ -3,7 +3,6 @@ import { Document, model, Model, Schema, Types } from 'mongoose';
 import { ITrackModel } from '@app/models/track.model';
 
 interface IArtistModel extends Document {
-  _id: Types.ObjectId;
   artistId: number;
   username: string;
   name: string | null;
@@ -16,9 +15,10 @@ const ArtistSchema: Schema = new Schema({
     required: true,
     type: Number,
     unique: true,
+    index: true,
   },
   username: { type: String, index: true, required: true },
-  name: { type: String, index: true },
+  name: { type: String, index: 'text' },
   location: String,
   tracks: [{ type: Schema.Types.ObjectId, ref: 'Track' }],
 });

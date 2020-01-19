@@ -2,6 +2,7 @@ import 'reflect-metadata';
 import dotenv from 'dotenv';
 import fastify from 'fastify';
 import fastifyGQL from 'fastify-gql';
+import fastifyCORS from 'fastify-cors';
 import mongoose from 'mongoose';
 import { buildSchema } from 'type-graphql';
 import fastifyCompress from 'fastify-compress';
@@ -28,6 +29,10 @@ const buildServer = async (): Promise<FastifyInstanceType> => {
     graphiql: !process.env.PRODUCTION,
   });
 
+  app.register(fastifyCORS, {
+    origin: true,
+  });
+
   return app;
 };
 
@@ -39,9 +44,11 @@ const start = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    mongoose.set('debug', !process.env.PRODUCTION);
 
-    await initRatedArtistsView(mongoose.connection);
+    mongoose.set('debug', !process.env.PRODUCTION);
+    await mongoose.connection.db.setProfilingLevel('all');
+
+    // await initRatedArtistsView(mongoose.connection);
 
     const server = await buildServer();
     await server.listen(port, '0.0.0.0');

@@ -1,18 +1,33 @@
 import { Connection, Aggregate } from 'mongoose';
 
+import { IRatedArtistModel } from '@app/models/ratedArtist.model';
+
 const initRatedArtistsView = async (connection: Connection): Promise<void> => {
-  if (connection.collections['rated_artists']) {
-    try {
-      await connection.dropCollection('rated_artists');
-    } catch (error) {
-      if (error.codeName !== 'NamespaceNotFound') {
-        throw error;
-      }
+  try {
+    const dropResult = await connection.db.dropCollection('rated_artists');
+    console.log('rated_artists dropped: ', dropResult);
+  } catch (error) {
+    console.error(error);
+    if (error.codeName !== 'NamespaceNotFound') {
+      throw error;
     }
   }
-  await connection.createCollection('rated_artists', {
+
+  await connection.db.createCollection<IRatedArtistModel>('rated_artists', {
     viewOn: 'artists',
     pipeline: new Aggregate([
+      {
+        $addFields: {
+          rounds: {
+            $size: '$tracks',
+          },
+        },
+      },
+      {
+        $match: {
+          rounds: { $gt: 2 },
+        },
+      },
       {
         $lookup: {
           from: 'tracks',
@@ -23,9 +38,6 @@ const initRatedArtistsView = async (connection: Connection): Promise<void> => {
       },
       {
         $addFields: {
-          rounds: {
-            $size: '$tracks',
-          },
           wins: {
             $size: {
               $filter: {

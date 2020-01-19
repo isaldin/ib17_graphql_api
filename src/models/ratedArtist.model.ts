@@ -1,6 +1,6 @@
-import { Document, model, Model, Schema, Types } from "mongoose";
+import { Document, model, Model, Schema, Types } from 'mongoose';
 
-import { ITrackModel, TrackSchema } from "@app/models/track.model";
+import { ITrackModel, TrackSchema } from '@app/models/track.model';
 
 interface IRatedArtistModel extends Document {
   _id: Types.ObjectId;
@@ -20,15 +20,15 @@ const RatedArtistSchema: Schema = new Schema(
     name: String,
     location: String,
     tracks: [TrackSchema],
-    overallJudgesRating: Number,
-    overallPopularRating: Number
+    overallJudgesRating: { type: Number, index: true },
+    overallPopularRating: { type: Number, index: true },
   },
-  { collection: "rated_artists" }
+  { collection: 'rated_artists' },
 );
 
 const RatedArtistModel: Model<IRatedArtistModel> = model<IRatedArtistModel>(
-  "RatedArtist",
-  RatedArtistSchema
+  'RatedArtist',
+  RatedArtistSchema,
 );
 
 export { RatedArtistModel, IRatedArtistModel };

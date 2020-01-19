@@ -21,9 +21,11 @@ const getRatedArtists = async (input?: IGetRatedArtistsInput): Promise<IRatedArt
     ...defaultParams,
     ...input,
   };
-  return RatedArtistModel.find({})
+
+  const result = await RatedArtistModel.find({})
     .sort(buildSortingParams(params.sort))
     .limit(params.limit);
+  return result;
 };
 
 export default { getRatedArtists };
