@@ -1,20 +1,27 @@
-import topRatedArtistsController from '@app/controllers/ratedArtists.controller';
-
 import DBHelper from '@app/tests/__helpers/db';
 import r1top100Seeder from '@app/tests/__seeders/round1_top100.seeder';
 import rawR1Top100Json from '@app/tests/__fixtures/round1/top100.json';
-import { initRatedArtistsView } from '@app/db/initRatedArtistsView';
 import { map, prop, take, sortWith, descend, ascend, path } from 'ramda';
+import { ArtistModel } from '@app/models/artist.model';
+import { TrackModel } from '@app/models/track.model';
+import { RatedArtistModel } from '@app/models/ratedArtist.model';
+import topRatedArtistsController from '@app/controllers/ratedArtists.controller';
 
 describe('ratedArtists.controller', () => {
-  let dbHelper: DBHelper;
+  const dbHelper = new DBHelper();
 
   beforeAll(async () => {
-    dbHelper = new DBHelper();
     await dbHelper.init();
 
     await r1top100Seeder.seed();
-    await initRatedArtistsView(dbHelper.connection);
+
+    const artistsCount = await ArtistModel.countDocuments();
+    const tracksCount = await TrackModel.countDocuments();
+    const ratedArtistsCount = await RatedArtistModel.countDocuments();
+
+    expect(artistsCount).toEqual(100);
+    expect(tracksCount).toEqual(300);
+    expect(ratedArtistsCount).toEqual(100);
   });
 
   afterAll(async () => {

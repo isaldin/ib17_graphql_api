@@ -2,7 +2,6 @@ import { map, prop } from 'ramda';
 
 import { ArtistModel } from '@app/models/artist.model';
 import { RatedArtistModel } from '@app/models/ratedArtist.model';
-import { initRatedArtistsView } from '@app/db/initRatedArtistsView';
 
 import DBHelper from '@app/tests/__helpers/db';
 import artistsSeeder from '@app/tests/__seeders/artists.seeder';
@@ -17,7 +16,6 @@ describe('initRatedArtistsView', () => {
 
     await ArtistModel.deleteMany({});
     await _seedTracksForTestSortingByRating();
-    await initRatedArtistsView(dbHelper.connection);
   });
 
   afterAll(async () => {
@@ -226,7 +224,7 @@ describe('initRatedArtistsView', () => {
     test('artists in view should be sorted by judges rating', async () => {
       const artists = await RatedArtistModel.find({});
       const artistsNames = map(prop('name'), artists);
-      expect(artistsNames).toStrictEqual(['zagi', '228', 'lu4nik', 'oxxxy', 'stim', 'noize']);
+      expect(artistsNames).toStrictEqual(['zagi', '228', 'lu4nik', 'oxxxy', 'stim']);
     });
   });
 });

@@ -20,8 +20,8 @@ const RatedArtistSchema: Schema = new Schema(
     name: String,
     location: String,
     tracks: [TrackSchema],
-    overallJudgesRating: { type: Number, index: true },
-    overallPopularRating: { type: Number, index: true },
+    overallJudgesRating: Number,
+    overallPopularRating: Number,
   },
   { collection: 'rated_artists' },
 );

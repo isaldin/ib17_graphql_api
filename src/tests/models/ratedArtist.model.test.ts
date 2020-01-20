@@ -3,7 +3,6 @@ import { RatedArtistModel } from '@app/models/ratedArtist.model';
 import { TrackModel } from '@app/models/track.model';
 import addTracksToArtist from '@app/tests/__helpers/addTracksToArtist';
 import { map } from 'ramda';
-import { initRatedArtistsView } from '@app/db/initRatedArtistsView';
 import { ArtistModel } from '@app/models/artist.model';
 
 describe('RatedArtistModel', () => {
@@ -36,10 +35,15 @@ describe('RatedArtistModel', () => {
           popularRating: 20,
           status: 1,
         },
+        {
+          round: 3,
+          judgesRating: 22,
+          popularRating: 20,
+          status: 1,
+        },
       ],
       'stim',
     );
-    await initRatedArtistsView(dbHelper.connection);
   });
 
   afterAll(async () => {
@@ -49,7 +53,7 @@ describe('RatedArtistModel', () => {
   it('should have tracks property', async () => {
     const artist = await RatedArtistModel.findOne({ name: 'stim' });
 
-    expect(artist!.tracks).toHaveLength(2);
+    expect(artist!.tracks).toHaveLength(3);
 
     // Jest can not compare CoreMongooseArray with Array :-/
     // and can not ignore order, fuck
@@ -63,11 +67,11 @@ describe('RatedArtistModel', () => {
 
   it('should have `overallJudgesRating` property', async () => {
     const artist = await RatedArtistModel.findOne({ name: 'stim' });
-    expect(artist!.overallJudgesRating).toEqual(34);
+    expect(artist!.overallJudgesRating).toEqual(56);
   });
 
   it('should have `overallPopularRating` property', async () => {
     const artist = await RatedArtistModel.findOne({ name: 'stim' });
-    expect(artist!.overallPopularRating).toEqual(30);
+    expect(artist!.overallPopularRating).toEqual(50);
   });
 });

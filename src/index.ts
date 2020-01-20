@@ -8,7 +8,6 @@ import { buildSchema } from 'type-graphql';
 import fastifyCompress from 'fastify-compress';
 
 import { FastifyInstanceType } from '@app/types';
-import { initRatedArtistsView } from '@app/db/initRatedArtistsView';
 import { topRatedArtistsResolver } from '@app/graphql/resolvers';
 
 dotenv.config();
@@ -47,8 +46,6 @@ const start = async () => {
 
     mongoose.set('debug', !process.env.PRODUCTION);
     await mongoose.connection.db.setProfilingLevel('all');
-
-    // await initRatedArtistsView(mongoose.connection);
 
     const server = await buildServer();
     await server.listen(port, '0.0.0.0');

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/camelcase */
 import path from 'path';
-import { where, is, map, anyPass, allPass, isNil } from 'ramda';
+import { where, is, anyPass, allPass, isNil, range } from 'ramda';
 import fs from 'fs';
 
 import { ArtistModel } from '@app/models/artist.model';
@@ -37,7 +37,8 @@ const seed = async (): Promise<void> => {
   await ArtistModel.deleteMany({});
   await TrackModel.deleteMany({});
 
-  const modelsPromises = map(async (item): Promise<void> => {
+  // @ts-ignore
+  const promises = parsedJson.map(async item => {
     if (isValidObject(item)) {
       const artist = new ArtistModel({
         artistId: item.user_id,
@@ -47,26 +48,29 @@ const seed = async (): Promise<void> => {
         tracks: [],
         overall_rating: 0,
       });
+      await artist.save();
 
-      const track = new TrackModel({
-        trackId: item.id,
-        artist,
-        path: item.path,
-        round: item.round_id,
-        table: 'qualifying',
-        popular_rating: item.rating_sum,
-        judges_rating: item.judge_rating_sum,
-        judges_ratings: [],
-        status: item.status,
-      });
-      await track.save();
-
-      artist.tracks.push(track._id);
+      const trackPromises = range(1, 4).map(async idx => {
+        const track = new TrackModel({
+          trackId: item.id + idx * 10,
+          artist,
+          path: item.path,
+          round: idx,
+          table: 'yin',
+          popular_rating: item.rating_sum,
+          judges_rating: item.judge_rating_sum,
+          judges_ratings: [],
+          status: item.status,
+        });
+        await track.save();
+        return track._id;
+      }, range(1, 4));
+      const tracks = await Promise.all(trackPromises);
+      artist.tracks.push(...tracks);
       await artist.save();
     }
-  }, parsedJson);
-
-  await Promise.all(modelsPromises);
+  });
+  await Promise.all(promises);
 };
 
 export default { seed };

@@ -17,7 +17,7 @@ const seeder = {
       // [10, "tanir"]
     ];
 
-    const artistsFromDB = await ArtistModel.create(
+    await ArtistModel.create(
       map(
         item => ({
           artistId: item[0],

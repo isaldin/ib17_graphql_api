@@ -1,6 +1,6 @@
-import { map } from "ramda";
-import { ArtistModel } from "@app/models/artist.model";
-import { TrackModel } from "@app/models/track.model";
+import { map } from 'ramda';
+import { ArtistModel } from '@app/models/artist.model';
+import { TrackModel } from '@app/models/track.model';
 
 const addTracksToArtist = async (
   tracks: {
@@ -9,22 +9,22 @@ const addTracksToArtist = async (
     popularRating: number;
     status: number;
   }[],
-  artistName: string
+  artistName: string,
 ) => {
   const createTracksPromises = map(async trackObj => {
     const artist = await ArtistModel.findOne({ name: artistName });
     const track = await new TrackModel({
       artist,
       trackId: Math.floor(Math.random() * 100000),
-      path: "",
+      path: '',
       round: trackObj.round,
-      table: "yin",
+      table: 'yin',
       popular_rating: trackObj.popularRating,
       judges_rating: trackObj.judgesRating,
       judges_ratings: [],
-      status: trackObj.status
+      status: trackObj.status,
     }).save();
-    artist!.tracks.push(track);
+    artist!.tracks.push(track._id);
     await artist!.save();
   }, tracks);
   await Promise.all(createTracksPromises);

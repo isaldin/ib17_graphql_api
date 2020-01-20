@@ -1,6 +1,9 @@
 // tslint:disable-next-line: no-implicit-dependencies
-import { MongoMemoryServer } from "mongodb-memory-server";
-import mongoose, { Connection } from "mongoose";
+import { MongoMemoryServer } from 'mongodb-memory-server';
+import mongoose, { Connection } from 'mongoose';
+import { ArtistModel } from '@app/models/artist.model';
+import { TrackModel } from '@app/models/track.model';
+import { initRatedArtistsView } from '@app/db/initRatedArtistsView';
 
 export default class DBHelper {
   private mongoServer: MongoMemoryServer;
@@ -15,8 +18,13 @@ export default class DBHelper {
     await mongoose.connect(mongoUri, {
       useCreateIndex: true,
       useNewUrlParser: true,
-      useUnifiedTopology: true
+      useUnifiedTopology: true,
+      autoIndex: false,
     });
+    await ArtistModel.createIndexes();
+    await TrackModel.createIndexes();
+    await initRatedArtistsView(mongoose.connection);
+
     this.mongooseConnection = mongoose.connection;
   }
 
