@@ -5,16 +5,24 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "node",
+      "request": "launch",
+      "name": "Jest All",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": ["--runInBand"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "disableOptimisticBPs": true,
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
+    },
+    {
       "name": "Node Inspector",
       "type": "node",
       "request": "launch",
       "args": ["${workspaceRoot}/src/index.ts"],
-      "runtimeArgs": [
-        "-r",
-        "tsconfig-paths/register",
-        "-r",
-        "ts-node/register"
-      ],
+      "runtimeArgs": ["-r", "tsconfig-paths/register", "-r", "ts-node/register"],
       "cwd": "${workspaceRoot}",
       "protocol": "inspector",
       "internalConsoleOptions": "openOnSessionStart",
