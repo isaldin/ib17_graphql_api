@@ -17,7 +17,7 @@
     "fastify-gql": "2.2.0",
     "graphql": "14.5.8",
     "js-base64": "2.5.1",
-    "mongoose": "5.8.3",
+    "mongoose": "5.8.9",
     "ramda": "0.26.1",
     "reflect-metadata": "0.1.13",
     "type-graphql": "0.17.6"
@@ -26,7 +26,7 @@
     "@types/dotenv": "8.2.0",
     "@types/jest": "24.0.25",
     "@types/js-base64": "2.3.1",
-    "@types/mongoose": "5.5.35",
+    "@types/mongoose": "5.5.41",
     "@types/ramda": "0.26.39",
     "@types/supertest": "2.0.8",
     "apollo": "2.21.3",
