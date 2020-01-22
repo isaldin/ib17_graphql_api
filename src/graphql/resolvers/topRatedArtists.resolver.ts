@@ -7,6 +7,7 @@ import { topRatedArtistsController, tracksController } from '@app/controllers';
 import { map, prop } from 'ramda';
 
 import TopRatedArtistsArgs from './topRatedArtists.args';
+import artistFromModel from './artistFromModel';
 
 @Resolver(of => ArtistGQLType)
 class TopRatedArtistsResolver {
@@ -14,17 +15,7 @@ class TopRatedArtistsResolver {
   async topRatedArtists(@Args() { limit, sort }: TopRatedArtistsArgs): Promise<ArtistGQLType[]> {
     const models = await topRatedArtistsController.getRatedArtists({ limit, sort });
 
-    return map(
-      item => ({
-        id: Base64.encode(`RatedArtist:${item.artistId}`),
-        name: item.name,
-        location: item.location,
-        overallJudgesRating: item.overallJudgesRating,
-        overallPopularRating: item.overallPopularRating,
-        trackIDs: map(prop('_id'), item.tracks),
-      }),
-      models,
-    );
+    return map(artistFromModel, models);
   }
 
   @FieldResolver(type => [TrackGQLType])

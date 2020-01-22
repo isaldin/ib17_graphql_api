@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node -r tsconfig-paths/register ./src/index.ts",
     "docker:mongo": "docker-compose -f ./docker/mongo-compose.yml up --remove-orphans -d",
-    "test": "jest"
+    "test": "jest",
+    "apollo:push": "yarn apollo service:push --endpoint=http://localhost:4000/graphql"
   },
   "dependencies": {
     "dataloader": "2.0.0",
